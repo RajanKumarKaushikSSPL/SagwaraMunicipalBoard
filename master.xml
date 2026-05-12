@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+
+<suite name="Master Suite">
+  
+  <listeners>
+    <listener class-name="utilities.ExtentReportManager"></listener>
+  </listeners>
+  
+  
+  <test thread-count="5" name="Test">
+    
+    <parameter name="os" value="Windows"></parameter>
+    <parameter name="browser" value="Chrome"></parameter>
+    
+    <classes>
+      
+      <class name="testCases.TC001_LoginTest"/>
+      <class name="testCases.TC002_LoginDDTTest"/>
+      <class name="testCases.TC003_ApplySelfAssessmentTest"/>
+      <class name="testCases.TC004_VerifyActTest"/>
+      <class name="testCases.TC005_VerifyGalleryTest"/>
+      <class name="testCases.TC006_VerifyContactTest"/>
+      <class name="testCases.TC007_VerifyFeedbackTest"/>
+      <class name="testCases.TC008_VerifyHouseTaxEntryTest"/>
+      <class name="testCases.TC009_HouseTaxEntryTest"/>
+      <class name="testCases.TC010_VerifyLegacyEntryTest"/>
+      <class name="testCases.TC011_LegacyEntryTest"/>
+      <class name="testCases.TC012_VerifySearchPropertyTest"/>
+      <class name="testCases.TC013_VerifyDocUploadTest"/>
+      <class name="testCases.TC014_VerifyUpdatePropertyDetailsTest"/>
+      <class name="testCases.TC015_VerifyLastPaymentUpdateTest"/>
+      <class name="testCases.TC016_VerifyUpdateOwnerDetailsTest"/>
+      <class name="testCases.TC017_VerifyWardUpdateTest"/>
+      <class name="testCases.TC018_VerifyAdjustmentTest"/>
+      <class name="testCases.TC019_VerifyHTaxLastPaymentUpdateTest"/>
+      <class name="testCases.TC020_VerifyCounterReportTest"/>
+      <class name="testCases.TC021_VerifyTCCollectionSummaryTest"/>
+      <class name="testCases.TC022_VerifyDCBReportTest"/>
+      <class name="testCases.TC023_VerifySAFReportTest"/>
+      <class name="testCases.TC024_VerifyZoneAndWardWiseCollectionReportTest"/>
+      <class name="testCases.TC025_VerifyPaymentModeWiseCollectionTest"/>
+      <class name="testCases.TC026_VerifyULBReportTest"/>
+      <class name="testCases.TC027_VerifyTransactionDeactivateReportTest"/>
+      <class name="testCases.TC028_VerifyAllModuleTCSummaryTest"/>
+      <class name="testCases.TC029_VerifyPrintAllPaymentReceiptTest"/>
+      <class name="testCases.TC030_VerifyPropertyWiseDCBTest"/>
+      <class name="testCases.TC031_VerifyPrintAllDemandReceiptTest"/>
+      <class name="testCases.TC032_VerifyReassessmentDiffTest"/>
+      <class name="testCases.TC033_VerifyChequeBouncedCollectionReportTest"/>
+      <class name="testCases.TC034_VerifyTaxCollectionReportTest"/>
+      <class name="testCases.TC035_VerifyApptiListTest"/>
+      <class name="testCases.TC036_VerifyAppttiPendingReportTest"/>
+      <class name="testCases.TC037_VerifyApptiRejectListTest"/>
+      <class name="testCases.TC038_VerifyTCVisitReportTest"/>
+      <class name="testCases.TC039_VerifyTCVisitSummaryTest"/>
+      <class name="testCases.TC040_VerifyPropertyWiseTCVisitTest"/>
+      <class name="testCases.TC041_VerifyTLVisitReportTest"/>
+      <class name="testCases.TC042_VerifyAllUpdationReportTest"/>
+      <class name="testCases.TC043_VerifySurveyReportTest"/>
+      <class name="testCases.TC044_VerifySurveySummaryReportTest"/>
+      <class name="testCases.TC045_VerifySurveyTeamSummaryTest"/>
+      <class name="testCases.TC046_VerifySurveyAssessedListTest"/>
+      <class name="testCases.TC047_VerifySurveyAssessedReportTest"/>
+      <class name="testCases.TC048_VerifyWardWiseSurveyReportTest"/>
+      <class name="testCases.TC049_VerifySurveyPendingReportTest"/>
+      <class name="testCases.TC050_VerifySurveyLevelSummaryReportTest"/>
+      <class name="testCases.TC051_VerifyUserWiseForwardSummaryTest"/>
+      <class name="testCases.TC052_VerifyUserWiseSurveyEditReportTest"/>
+      <class name="testCases.TC053_VerifySurveyModificationReportTest"/>
+      <class name="testCases.TC054_VerifySurveyGeotaggingReportTest"/>
+      <class name="testCases.TC055_VerifyExPartySurveyNoticeTest"/>
+      <class name="testCases.TC056_VerifySurveyNoticeListTest"/>
+      <class name="testCases.TC057_VerifyBulkSurveyNoticePrintTest"/>
+      <class name="testCases.TC058_VeirfySurveyNoticeReceviedListTest"/>
+      <class name="testCases.TC059_VerifySurveyNoticeReceivedReportTest"/>
+      <class name="testCases.TC060_VerifySurveyNoticeDistributedReportTest"/>
+      <class name="testCases.TC061_VerifySurveyDemandReportTest"/>
+      <class name="testCases.TC062_VerifyUDTaxSetUpMenuTest"/>
+      <class name="testCases.TC063_VerifyAssessmentMenuTest"/>
+      <class name="testCases.TC064_VerifyUDTaxMenuTest"/>
+      <class name="testCases.TC065_VerifyUDTaxReportMenuTest"/>
+      <class name="testCases.TC066_VerifyPropertySurveyMenuTest"/>
+      <class name="testCases.TC067_VerifyUDTaxMailMenuTest"/>
+      <class name="testCases.TC068_VerifyAccountsMenuTest"/>
+      <class name="testCases.TC069_VerifySurveyMailMenuTest"/>
+      
+      
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

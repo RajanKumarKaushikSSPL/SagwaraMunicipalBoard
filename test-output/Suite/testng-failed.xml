@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="utilities.ExtentReportManager"/>
+  </listeners>
+  <test thread-count="5" name="chrometest(failed)">
+    <parameter name="os" value="Windows"/>
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="testCases.TC003_ApplySelfAssessmentTest">
+        <methods>
+          <include name="verify_applySelfAssessmentPage"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC003_ApplySelfAssessmentTest -->
+      <class name="testCases.TC011_LegacyEntryTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="verify_LegacyEntryPage"/>
+        </methods>
+      </class> <!-- testCases.TC011_LegacyEntryTest -->
+      <class name="testCases.TC009_HouseTaxEntryTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verify_HouseTaxEntryPage"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC009_HouseTaxEntryTest -->
+    </classes>
+  </test> <!-- chrometest(failed) -->
+  <test thread-count="5" name="edgetest(failed)">
+    <parameter name="os" value="Windows"/>
+    <parameter name="browser" value="edge"/>
+    <classes>
+      <class name="testCases.TC003_ApplySelfAssessmentTest">
+        <methods>
+          <include name="verify_applySelfAssessmentPage"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC003_ApplySelfAssessmentTest -->
+      <class name="testCases.TC030_VerifyPropertyWiseDCBTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verify_DCBReportPageExists"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC030_VerifyPropertyWiseDCBTest -->
+      <class name="testCases.TC011_LegacyEntryTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="verify_LegacyEntryPage"/>
+        </methods>
+      </class> <!-- testCases.TC011_LegacyEntryTest -->
+      <class name="testCases.TC009_HouseTaxEntryTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verify_HouseTaxEntryPage"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC009_HouseTaxEntryTest -->
+    </classes>
+  </test> <!-- edgetest(failed) -->
+  <test thread-count="5" name="firefoxtest(failed)">
+    <parameter name="os" value="Windows"/>
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="testCases.TC003_ApplySelfAssessmentTest">
+        <methods>
+          <include name="verify_applySelfAssessmentPage"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC003_ApplySelfAssessmentTest -->
+      <class name="testCases.TC011_LegacyEntryTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="verify_LegacyEntryPage"/>
+        </methods>
+      </class> <!-- testCases.TC011_LegacyEntryTest -->
+      <class name="testCases.TC009_HouseTaxEntryTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verify_HouseTaxEntryPage"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC009_HouseTaxEntryTest -->
+    </classes>
+  </test> <!-- firefoxtest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

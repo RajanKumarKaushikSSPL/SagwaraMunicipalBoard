@@ -1,0 +1,568 @@
+<html>
+<head>
+<title>TestNG:  chrometest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>chrometest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>72/3/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue May 05 15:47:46 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>2171 seconds (2171916 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testCases.TC003_ApplySelfAssessmentTest.verify_applySelfAssessmentPage()'><b>verify_applySelfAssessmentPage</b><br>Test class: testCases.TC003_ApplySelfAssessmentTest</td>
+<td><div><pre>java.lang.AssertionError: null
+	at testCases.TC003_ApplySelfAssessmentTest.verify_applySelfAssessmentPage(TC003_ApplySelfAssessmentTest.java:295)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace5998675", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace5998675'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.fail(Assert.java:116)
+	at testCases.TC003_ApplySelfAssessmentTest.verify_applySelfAssessmentPage(TC003_ApplySelfAssessmentTest.java:295)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>33</td>
+<td>testCases.TC003_ApplySelfAssessmentTest@a202ccb</td></tr>
+<tr>
+<td title='testCases.TC009_HouseTaxEntryTest.verify_HouseTaxEntryPage()'><b>verify_HouseTaxEntryPage</b><br>Test class: testCases.TC009_HouseTaxEntryTest</td>
+<td><div><pre>java.lang.AssertionError: null
+	at testCases.TC009_HouseTaxEntryTest.verify_HouseTaxEntryPage(TC009_HouseTaxEntryTest.java:245)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1021786447", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1021786447'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.fail(Assert.java:116)
+	at testCases.TC009_HouseTaxEntryTest.verify_HouseTaxEntryPage(TC009_HouseTaxEntryTest.java:245)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>25</td>
+<td>testCases.TC009_HouseTaxEntryTest@5d2a4eed</td></tr>
+<tr>
+<td title='testCases.TC011_LegacyEntryTest.verify_LegacyEntryPage()'><b>verify_LegacyEntryPage</b><br>Test class: testCases.TC011_LegacyEntryTest</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at testCases.TC011_LegacyEntryTest.verify_LegacyEntryPage(TC011_LegacyEntryTest.java:184)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2031373582", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2031373582'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at testCases.TC011_LegacyEntryTest.verify_LegacyEntryPage(TC011_LegacyEntryTest.java:184)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>42</td>
+<td>testCases.TC011_LegacyEntryTest@3f0846c6</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testCases.TC043_VerifySurveyReportTest.verify_SurveyReportPageExists()'><b>verify_SurveyReportPageExists</b><br>Test class: testCases.TC043_VerifySurveyReportTest</td>
+<td></td>
+<td>22</td>
+<td>testCases.TC043_VerifySurveyReportTest@5c00384f</td></tr>
+<tr>
+<td title='testCases.TC030_VerifyPropertyWiseDCBTest.verify_DCBReportPageExists()'><b>verify_DCBReportPageExists</b><br>Test class: testCases.TC030_VerifyPropertyWiseDCBTest</td>
+<td></td>
+<td>22</td>
+<td>testCases.TC030_VerifyPropertyWiseDCBTest@320de594</td></tr>
+<tr>
+<td title='testCases.TC058_VeirfySurveyNoticeReceviedListTest.verify_SurveyNoticeReceviedListPageExists()'><b>verify_SurveyNoticeReceviedListPageExists</b><br>Test class: testCases.TC058_VeirfySurveyNoticeReceviedListTest</td>
+<td></td>
+<td>21</td>
+<td>testCases.TC058_VeirfySurveyNoticeReceviedListTest@4c398c80</td></tr>
+<tr>
+<td title='testCases.TC040_VerifyPropertyWiseTCVisitTest.verify_PropertyWiseTCVisitPageExists()'><b>verify_PropertyWiseTCVisitPageExists</b><br>Test class: testCases.TC040_VerifyPropertyWiseTCVisitTest</td>
+<td></td>
+<td>32</td>
+<td>testCases.TC040_VerifyPropertyWiseTCVisitTest@4044fb95</td></tr>
+<tr>
+<td title='testCases.TC046_VerifySurveyAssessedListTest.verify_SurveyAssessedListPageExists()'><b>verify_SurveyAssessedListPageExists</b><br>Test class: testCases.TC046_VerifySurveyAssessedListTest</td>
+<td></td>
+<td>20</td>
+<td>testCases.TC046_VerifySurveyAssessedListTest@62e6b5c8</td></tr>
+<tr>
+<td title='testCases.TC029_VerifyPrintAllPaymentReceiptTest.verify_PrintAllPaymentReceiptPageExists()'><b>verify_PrintAllPaymentReceiptPageExists</b><br>Test class: testCases.TC029_VerifyPrintAllPaymentReceiptTest</td>
+<td></td>
+<td>17</td>
+<td>testCases.TC029_VerifyPrintAllPaymentReceiptTest@6035b93b</td></tr>
+<tr>
+<td title='testCases.TC057_VerifyBulkSurveyNoticePrintTest.verify_BulkSurveyNoticePageExists()'><b>verify_BulkSurveyNoticePageExists</b><br>Test class: testCases.TC057_VerifyBulkSurveyNoticePrintTest</td>
+<td></td>
+<td>22</td>
+<td>testCases.TC057_VerifyBulkSurveyNoticePrintTest@fb9c7aa</td></tr>
+<tr>
+<td title='testCases.TC013_VerifyDocUploadTest.verify_PropertyListPageExists()'><b>verify_PropertyListPageExists</b><br>Test class: testCases.TC013_VerifyDocUploadTest</td>
+<td></td>
+<td>18</td>
+<td>testCases.TC013_VerifyDocUploadTest@78fbff54</td></tr>
+<tr>
+<td title='testCases.TC021_VerifyTCCollectionSummaryTest.verify_TCCollectionSummaryPageExists()'><b>verify_TCCollectionSummaryPageExists</b><br>Test class: testCases.TC021_VerifyTCCollectionSummaryTest</td>
+<td></td>
+<td>27</td>
+<td>testCases.TC021_VerifyTCCollectionSummaryTest@1021f6c9</td></tr>
+<tr>
+<td title='testCases.TC042_VerifyAllUpdationReportTest.verify_AllUpdationReportPageExists()'><b>verify_AllUpdationReportPageExists</b><br>Test class: testCases.TC042_VerifyAllUpdationReportTest</td>
+<td></td>
+<td>32</td>
+<td>testCases.TC042_VerifyAllUpdationReportTest@36f48b4</td></tr>
+<tr>
+<td title='testCases.TC024_VerifyZoneAndWardWiseCollectionReportTest.verify_WardWiseCollectionReportPageExists()'><b>verify_WardWiseCollectionReportPageExists</b><br>Test class: testCases.TC024_VerifyZoneAndWardWiseCollectionReportTest</td>
+<td></td>
+<td>27</td>
+<td>testCases.TC024_VerifyZoneAndWardWiseCollectionReportTest@5e81e5ac</td></tr>
+<tr>
+<td title='testCases.TC044_VerifySurveySummaryReportTest.verify_SurveySummaryReportPageExists()'><b>verify_SurveySummaryReportPageExists</b><br>Test class: testCases.TC044_VerifySurveySummaryReportTest</td>
+<td></td>
+<td>32</td>
+<td>testCases.TC044_VerifySurveySummaryReportTest@3b7ff809</td></tr>
+<tr>
+<td title='testCases.TC063_VerifyAssessmentMenuTest.verify_AssessmentMenuExists()'><b>verify_AssessmentMenuExists</b><br>Test class: testCases.TC063_VerifyAssessmentMenuTest</td>
+<td></td>
+<td>13</td>
+<td>testCases.TC063_VerifyAssessmentMenuTest@29df4d43</td></tr>
+<tr>
+<td title='testCases.TC053_VerifySurveyModificationReportTest.verify_SurveyModificationReportPageExists()'><b>verify_SurveyModificationReportPageExists</b><br>Test class: testCases.TC053_VerifySurveyModificationReportTest</td>
+<td></td>
+<td>42</td>
+<td>testCases.TC053_VerifySurveyModificationReportTest@4da602fc</td></tr>
+<tr>
+<td title='testCases.TC001_LoginTest.verify_login()'><b>verify_login</b><br>Test class: testCases.TC001_LoginTest</td>
+<td></td>
+<td>6</td>
+<td>testCases.TC001_LoginTest@3eeb318f</td></tr>
+<tr>
+<td title='testCases.TC002_LoginDDTTest.verify_loginDDT()'><b>verify_loginDDT</b><br>Test class: testCases.TC002_LoginDDTTest<br>Parameters: , 1234, Invalid</td>
+<td></td>
+<td>12</td>
+<td>testCases.TC002_LoginDDTTest@6da00fb9</td></tr>
+<tr>
+<td title='testCases.TC028_VerifyAllModuleTCSummaryTest.verify_AllModuleOperatorWiseCollectionPageExists()'><b>verify_AllModuleOperatorWiseCollectionPageExists</b><br>Test class: testCases.TC028_VerifyAllModuleTCSummaryTest</td>
+<td></td>
+<td>26</td>
+<td>testCases.TC028_VerifyAllModuleTCSummaryTest@6f0b0a5e</td></tr>
+<tr>
+<td title='testCases.TC002_LoginDDTTest.verify_loginDDT()'><b>verify_loginDDT</b><br>Test class: testCases.TC002_LoginDDTTest<br>Parameters: super_admin, 12345, Valid</td>
+<td></td>
+<td>10</td>
+<td>testCases.TC002_LoginDDTTest@6da00fb9</td></tr>
+<tr>
+<td title='testCases.TC049_VerifySurveyPendingReportTest.verify_SurveyPendingReportPageExists()'><b>verify_SurveyPendingReportPageExists</b><br>Test class: testCases.TC049_VerifySurveyPendingReportTest</td>
+<td></td>
+<td>32</td>
+<td>testCases.TC049_VerifySurveyPendingReportTest@4b20ca2b</td></tr>
+<tr>
+<td title='testCases.TC014_VerifyUpdatePropertyDetailsTest.verify_PropertyListPageExists()'><b>verify_PropertyListPageExists</b><br>Test class: testCases.TC014_VerifyUpdatePropertyDetailsTest</td>
+<td></td>
+<td>17</td>
+<td>testCases.TC014_VerifyUpdatePropertyDetailsTest@3e10dc6</td></tr>
+<tr>
+<td title='testCases.TC031_VerifyPrintAllDemandReceiptTest.verify_PrintAllDemandReceiptPageExists()'><b>verify_PrintAllDemandReceiptPageExists</b><br>Test class: testCases.TC031_VerifyPrintAllDemandReceiptTest</td>
+<td></td>
+<td>25</td>
+<td>testCases.TC031_VerifyPrintAllDemandReceiptTest@3dd1dc90</td></tr>
+<tr>
+<td title='testCases.TC060_VerifySurveyNoticeDistributedReportTest.verify_SurveyNoticeDistributedReportPageExists()'><b>verify_SurveyNoticeDistributedReportPageExists</b><br>Test class: testCases.TC060_VerifySurveyNoticeDistributedReportTest</td>
+<td></td>
+<td>23</td>
+<td>testCases.TC060_VerifySurveyNoticeDistributedReportTest@21baa903</td></tr>
+<tr>
+<td title='testCases.TC016_VerifyUpdateOwnerDetailsTest.verify_PropertyListPageExists()'><b>verify_PropertyListPageExists</b><br>Test class: testCases.TC016_VerifyUpdateOwnerDetailsTest</td>
+<td></td>
+<td>17</td>
+<td>testCases.TC016_VerifyUpdateOwnerDetailsTest@45e37a7e</td></tr>
+<tr>
+<td title='testCases.TC052_VerifyUserWiseSurveyEditReportTest.verify_UserWiseSurveyEditReportPageExists()'><b>verify_UserWiseSurveyEditReportPageExists</b><br>Test class: testCases.TC052_VerifyUserWiseSurveyEditReportTest</td>
+<td></td>
+<td>31</td>
+<td>testCases.TC052_VerifyUserWiseSurveyEditReportTest@1af146</td></tr>
+<tr>
+<td title='testCases.TC022_VerifyDCBReportTest.verify_DCBULBWisePageExists()'><b>verify_DCBULBWisePageExists</b><br>Test class: testCases.TC022_VerifyDCBReportTest</td>
+<td></td>
+<td>13</td>
+<td>testCases.TC022_VerifyDCBReportTest@7516e4e5</td></tr>
+<tr>
+<td title='testCases.TC061_VerifySurveyDemandReportTest.verify_SurveyDemandReportPageExists()'><b>verify_SurveyDemandReportPageExists</b><br>Test class: testCases.TC061_VerifySurveyDemandReportTest</td>
+<td></td>
+<td>22</td>
+<td>testCases.TC061_VerifySurveyDemandReportTest@607fbe09</td></tr>
+<tr>
+<td title='testCases.TC008_VerifyHouseTaxEntryTest.verify_HouseTaxEntryPageIsExists()'><b>verify_HouseTaxEntryPageIsExists</b><br>Test class: testCases.TC008_VerifyHouseTaxEntryTest</td>
+<td></td>
+<td>15</td>
+<td>testCases.TC008_VerifyHouseTaxEntryTest@3a3e4aff</td></tr>
+<tr>
+<td title='testCases.TC012_VerifySearchPropertyTest.verify_PropertyListPageExists()'><b>verify_PropertyListPageExists</b><br>Test class: testCases.TC012_VerifySearchPropertyTest</td>
+<td></td>
+<td>18</td>
+<td>testCases.TC012_VerifySearchPropertyTest@77a98a6a</td></tr>
+<tr>
+<td title='testCases.TC023_VerifySAFReportTest.verify_SAFReportPageExists()'><b>verify_SAFReportPageExists</b><br>Test class: testCases.TC023_VerifySAFReportTest</td>
+<td></td>
+<td>13</td>
+<td>testCases.TC023_VerifySAFReportTest@488eb7f2</td></tr>
+<tr>
+<td title='testCases.TC035_VerifyApptiListTest.verify_ApptiFormListPageExists()'><b>verify_ApptiFormListPageExists</b><br>Test class: testCases.TC035_VerifyApptiListTest</td>
+<td></td>
+<td>18</td>
+<td>testCases.TC035_VerifyApptiListTest@2974f221</td></tr>
+<tr>
+<td title='testCases.TC036_VerifyAppttiPendingReportTest.verify_AppttiPendingReportPageExists()'><b>verify_AppttiPendingReportPageExists</b><br>Test class: testCases.TC036_VerifyAppttiPendingReportTest</td>
+<td></td>
+<td>30</td>
+<td>testCases.TC036_VerifyAppttiPendingReportTest@58fe0499</td></tr>
+<tr>
+<td title='testCases.TC005_VerifyGalleryTest.verify_GalleryPageIsExists()'><b>verify_GalleryPageIsExists</b><br>Test class: testCases.TC005_VerifyGalleryTest</td>
+<td></td>
+<td>5</td>
+<td>testCases.TC005_VerifyGalleryTest@75b25825</td></tr>
+<tr>
+<td title='testCases.TC010_VerifyLegacyEntryTest.verify_LegacyEntryPageIsExists()'><b>verify_LegacyEntryPageIsExists</b><br>Test class: testCases.TC010_VerifyLegacyEntryTest</td>
+<td></td>
+<td>15</td>
+<td>testCases.TC010_VerifyLegacyEntryTest@57459491</td></tr>
+<tr>
+<td title='testCases.TC038_VerifyTCVisitReportTest.verify_TCVisitReportPageExists()'><b>verify_TCVisitReportPageExists</b><br>Test class: testCases.TC038_VerifyTCVisitReportTest</td>
+<td></td>
+<td>20</td>
+<td>testCases.TC038_VerifyTCVisitReportTest@665df3c6</td></tr>
+<tr>
+<td title='testCases.TC045_VerifySurveyTeamSummaryTest.verify_SurveyTeamSummaryPageExists()'><b>verify_SurveyTeamSummaryPageExists</b><br>Test class: testCases.TC045_VerifySurveyTeamSummaryTest</td>
+<td></td>
+<td>32</td>
+<td>testCases.TC045_VerifySurveyTeamSummaryTest@1bb564e2</td></tr>
+<tr>
+<td title='testCases.TC037_VerifyApptiRejectListTest.verify_ApptiRejectListPageExists()'><b>verify_ApptiRejectListPageExists</b><br>Test class: testCases.TC037_VerifyApptiRejectListTest</td>
+<td></td>
+<td>23</td>
+<td>testCases.TC037_VerifyApptiRejectListTest@686449f9</td></tr>
+<tr>
+<td title='testCases.TC050_VerifySurveyLevelSummaryReportTest.verify_SurveyLevelSummaryReportPageExists()'><b>verify_SurveyLevelSummaryReportPageExists</b><br>Test class: testCases.TC050_VerifySurveyLevelSummaryReportTest</td>
+<td></td>
+<td>33</td>
+<td>testCases.TC050_VerifySurveyLevelSummaryReportTest@1cbf6e72</td></tr>
+<tr>
+<td title='testCases.TC026_VerifyULBReportTest.verify_AllModuleReportPageExists()'><b>verify_AllModuleReportPageExists</b><br>Test class: testCases.TC026_VerifyULBReportTest</td>
+<td></td>
+<td>14</td>
+<td>testCases.TC026_VerifyULBReportTest@3fa2213</td></tr>
+<tr>
+<td title='testCases.TC015_VerifyLastPaymentUpdateTest.verify_PropertyListPageExists()'><b>verify_PropertyListPageExists</b><br>Test class: testCases.TC015_VerifyLastPaymentUpdateTest</td>
+<td></td>
+<td>18</td>
+<td>testCases.TC015_VerifyLastPaymentUpdateTest@7e22550a</td></tr>
+<tr>
+<td title='testCases.TC062_VerifyUDTaxSetUpMenuTest.verify_UDTaxSetUpMenuExists()'><b>verify_UDTaxSetUpMenuExists</b><br>Test class: testCases.TC062_VerifyUDTaxSetUpMenuTest</td>
+<td></td>
+<td>10</td>
+<td>testCases.TC062_VerifyUDTaxSetUpMenuTest@60a2630a</td></tr>
+<tr>
+<td title='testCases.TC025_VerifyPaymentModeWiseCollectionTest.verify_PaymentModeWiseCollectionPageExists()'><b>verify_PaymentModeWiseCollectionPageExists</b><br>Test class: testCases.TC025_VerifyPaymentModeWiseCollectionTest</td>
+<td></td>
+<td>27</td>
+<td>testCases.TC025_VerifyPaymentModeWiseCollectionTest@4189d70b</td></tr>
+<tr>
+<td title='testCases.TC048_VerifyWardWiseSurveyReportTest.verify_WardWiseSurveyReportPageExists()'><b>verify_WardWiseSurveyReportPageExists</b><br>Test class: testCases.TC048_VerifyWardWiseSurveyReportTest</td>
+<td></td>
+<td>31</td>
+<td>testCases.TC048_VerifyWardWiseSurveyReportTest@7b8233cd</td></tr>
+<tr>
+<td title='testCases.TC002_LoginDDTTest.verify_loginDDT()'><b>verify_loginDDT</b><br>Test class: testCases.TC002_LoginDDTTest<br>Parameters: admin, 12345, Invalid</td>
+<td></td>
+<td>17</td>
+<td>testCases.TC002_LoginDDTTest@6da00fb9</td></tr>
+<tr>
+<td title='testCases.TC039_VerifyTCVisitSummaryTest.verify_TCVisitSummaryPageExists()'><b>verify_TCVisitSummaryPageExists</b><br>Test class: testCases.TC039_VerifyTCVisitSummaryTest</td>
+<td></td>
+<td>21</td>
+<td>testCases.TC039_VerifyTCVisitSummaryTest@68b6f0d6</td></tr>
+<tr>
+<td title='testCases.TC017_VerifyWardUpdateTest.verify_PropertyListPageExists()'><b>verify_PropertyListPageExists</b><br>Test class: testCases.TC017_VerifyWardUpdateTest</td>
+<td></td>
+<td>19</td>
+<td>testCases.TC017_VerifyWardUpdateTest@62452cc9</td></tr>
+<tr>
+<td title='testCases.TC032_VerifyReassessmentDiffTest.verify_ReassessmentDiffReportPageExists()'><b>verify_ReassessmentDiffReportPageExists</b><br>Test class: testCases.TC032_VerifyReassessmentDiffTest</td>
+<td></td>
+<td>22</td>
+<td>testCases.TC032_VerifyReassessmentDiffTest@abf688e</td></tr>
+<tr>
+<td title='testCases.TC007_VerifyFeedbackTest.verify_FeedbackPageIsExists()'><b>verify_FeedbackPageIsExists</b><br>Test class: testCases.TC007_VerifyFeedbackTest</td>
+<td></td>
+<td>4</td>
+<td>testCases.TC007_VerifyFeedbackTest@13cf7d52</td></tr>
+<tr>
+<td title='testCases.TC018_VerifyAdjustmentTest.verify_PropertyListPageExists()'><b>verify_PropertyListPageExists</b><br>Test class: testCases.TC018_VerifyAdjustmentTest</td>
+<td></td>
+<td>17</td>
+<td>testCases.TC018_VerifyAdjustmentTest@6941827a</td></tr>
+<tr>
+<td title='testCases.TC041_VerifyTLVisitReportTest.verify_TLVisitReportPageExists()'><b>verify_TLVisitReportPageExists</b><br>Test class: testCases.TC041_VerifyTLVisitReportTest</td>
+<td></td>
+<td>20</td>
+<td>testCases.TC041_VerifyTLVisitReportTest@aa549e5</td></tr>
+<tr>
+<td title='testCases.TC054_VerifySurveyGeotaggingReportTest.verify_SurveyGeotaggingReportPageExists()'><b>verify_SurveyGeotaggingReportPageExists</b><br>Test class: testCases.TC054_VerifySurveyGeotaggingReportTest</td>
+<td></td>
+<td>22</td>
+<td>testCases.TC054_VerifySurveyGeotaggingReportTest@2a8d39c4</td></tr>
+<tr>
+<td title='testCases.TC002_LoginDDTTest.verify_loginDDT()'><b>verify_loginDDT</b><br>Test class: testCases.TC002_LoginDDTTest<br>Parameters: , 12345, Invalid</td>
+<td></td>
+<td>13</td>
+<td>testCases.TC002_LoginDDTTest@6da00fb9</td></tr>
+<tr>
+<td title='testCases.TC020_VerifyCounterReportTest.verify_CounterReportPageExists()'><b>verify_CounterReportPageExists</b><br>Test class: testCases.TC020_VerifyCounterReportTest</td>
+<td></td>
+<td>26</td>
+<td>testCases.TC020_VerifyCounterReportTest@5bc9ba1d</td></tr>
+<tr>
+<td title='testCases.TC006_VerifyContactTest.verify_ContactPageIsExists()'><b>verify_ContactPageIsExists</b><br>Test class: testCases.TC006_VerifyContactTest</td>
+<td></td>
+<td>4</td>
+<td>testCases.TC006_VerifyContactTest@18025ced</td></tr>
+<tr>
+<td title='testCases.TC064_VerifyUDTaxMenuTest.verify_UDTaxMenuExists()'><b>verify_UDTaxMenuExists</b><br>Test class: testCases.TC064_VerifyUDTaxMenuTest</td>
+<td></td>
+<td>9</td>
+<td>testCases.TC064_VerifyUDTaxMenuTest@5dd91bca</td></tr>
+<tr>
+<td title='testCases.TC069_VerifySurveyMailMenuTest.verify_SurveyMailMenuExists()'><b>verify_SurveyMailMenuExists</b><br>Test class: testCases.TC069_VerifySurveyMailMenuTest</td>
+<td></td>
+<td>10</td>
+<td>testCases.TC069_VerifySurveyMailMenuTest@6eeade6c</td></tr>
+<tr>
+<td title='testCases.TC056_VerifySurveyNoticeListTest.verify_SurveyNoticeListPageExists()'><b>verify_SurveyNoticeListPageExists</b><br>Test class: testCases.TC056_VerifySurveyNoticeListTest</td>
+<td></td>
+<td>22</td>
+<td>testCases.TC056_VerifySurveyNoticeListTest@72758afa</td></tr>
+<tr>
+<td title='testCases.TC055_VerifyExPartySurveyNoticeTest.verify_ExPartySurveyNoticePageExists()'><b>verify_ExPartySurveyNoticePageExists</b><br>Test class: testCases.TC055_VerifyExPartySurveyNoticeTest</td>
+<td></td>
+<td>22</td>
+<td>testCases.TC055_VerifyExPartySurveyNoticeTest@25b2cfcb</td></tr>
+<tr>
+<td title='testCases.TC002_LoginDDTTest.verify_loginDDT()'><b>verify_loginDDT</b><br>Test class: testCases.TC002_LoginDDTTest<br>Parameters: , , Invalid</td>
+<td></td>
+<td>12</td>
+<td>testCases.TC002_LoginDDTTest@6da00fb9</td></tr>
+<tr>
+<td title='testCases.TC004_VerifyActTest.verify_ActPageIsExists()'><b>verify_ActPageIsExists</b><br>Test class: testCases.TC004_VerifyActTest</td>
+<td></td>
+<td>5</td>
+<td>testCases.TC004_VerifyActTest@20f12539</td></tr>
+<tr>
+<td title='testCases.TC059_VerifySurveyNoticeReceivedReportTest.verify_SurveyNoticeReceivedReportPageExists()'><b>verify_SurveyNoticeReceivedReportPageExists</b><br>Test class: testCases.TC059_VerifySurveyNoticeReceivedReportTest</td>
+<td></td>
+<td>22</td>
+<td>testCases.TC059_VerifySurveyNoticeReceivedReportTest@7fc6de5b</td></tr>
+<tr>
+<td title='testCases.TC068_VerifyAccountsMenuTest.verify_AccountsMenuExists()'><b>verify_AccountsMenuExists</b><br>Test class: testCases.TC068_VerifyAccountsMenuTest</td>
+<td></td>
+<td>9</td>
+<td>testCases.TC068_VerifyAccountsMenuTest@75f65e45</td></tr>
+<tr>
+<td title='testCases.TC033_VerifyChequeBouncedCollectionReportTest.verify_ChequeBouncedCollectionReportPageExists()'><b>verify_ChequeBouncedCollectionReportPageExists</b><br>Test class: testCases.TC033_VerifyChequeBouncedCollectionReportTest</td>
+<td></td>
+<td>22</td>
+<td>testCases.TC033_VerifyChequeBouncedCollectionReportTest@478ee483</td></tr>
+<tr>
+<td title='testCases.TC051_VerifyUserWiseForwardSummaryTest.verify_UserWiseForwardSummaryPageExists()'><b>verify_UserWiseForwardSummaryPageExists</b><br>Test class: testCases.TC051_VerifyUserWiseForwardSummaryTest</td>
+<td></td>
+<td>32</td>
+<td>testCases.TC051_VerifyUserWiseForwardSummaryTest@6aecbb8d</td></tr>
+<tr>
+<td title='testCases.TC034_VerifyTaxCollectionReportTest.verify_TaxCollectionReportPageExists()'><b>verify_TaxCollectionReportPageExists</b><br>Test class: testCases.TC034_VerifyTaxCollectionReportTest</td>
+<td></td>
+<td>18</td>
+<td>testCases.TC034_VerifyTaxCollectionReportTest@1a7288a3</td></tr>
+<tr>
+<td title='testCases.TC067_VerifyUDTaxMailMenuTest.verify_UDTaxMailMenuExists()'><b>verify_UDTaxMailMenuExists</b><br>Test class: testCases.TC067_VerifyUDTaxMailMenuTest</td>
+<td></td>
+<td>9</td>
+<td>testCases.TC067_VerifyUDTaxMailMenuTest@60641ec8</td></tr>
+<tr>
+<td title='testCases.TC066_VerifyPropertySurveyMenuTest.verify_PropertySurveyMenuExists()'><b>verify_PropertySurveyMenuExists</b><br>Test class: testCases.TC066_VerifyPropertySurveyMenuTest</td>
+<td></td>
+<td>10</td>
+<td>testCases.TC066_VerifyPropertySurveyMenuTest@3382f8ae</td></tr>
+<tr>
+<td title='testCases.TC047_VerifySurveyAssessedReportTest.verify_SurveyAssessedReportPageExists()'><b>verify_SurveyAssessedReportPageExists</b><br>Test class: testCases.TC047_VerifySurveyAssessedReportTest</td>
+<td></td>
+<td>19</td>
+<td>testCases.TC047_VerifySurveyAssessedReportTest@3f792b9b</td></tr>
+<tr>
+<td title='testCases.TC002_LoginDDTTest.verify_loginDDT()'><b>verify_loginDDT</b><br>Test class: testCases.TC002_LoginDDTTest<br>Parameters: admin, 1234, Invalid</td>
+<td></td>
+<td>15</td>
+<td>testCases.TC002_LoginDDTTest@6da00fb9</td></tr>
+<tr>
+<td title='testCases.TC065_VerifyUDTaxReportMenuTest.verify_UDTaxReportMenuExists()'><b>verify_UDTaxReportMenuExists</b><br>Test class: testCases.TC065_VerifyUDTaxReportMenuTest</td>
+<td></td>
+<td>10</td>
+<td>testCases.TC065_VerifyUDTaxReportMenuTest@40cb698e</td></tr>
+<tr>
+<td title='testCases.TC027_VerifyTransactionDeactivateReportTest.verify_TransactionDeactivateReportPageExists()'><b>verify_TransactionDeactivateReportPageExists</b><br>Test class: testCases.TC027_VerifyTransactionDeactivateReportTest</td>
+<td></td>
+<td>27</td>
+<td>testCases.TC027_VerifyTransactionDeactivateReportTest@3e7634b9</td></tr>
+<tr>
+<td title='testCases.TC002_LoginDDTTest.verify_loginDDT()'><b>verify_loginDDT</b><br>Test class: testCases.TC002_LoginDDTTest<br>Parameters: super_admin, 1234, Invalid</td>
+<td></td>
+<td>14</td>
+<td>testCases.TC002_LoginDDTTest@6da00fb9</td></tr>
+<tr>
+<td title='testCases.TC019_VerifyHTaxLastPaymentUpdateTest.verify_PropertyListPageExists()'><b>verify_PropertyListPageExists</b><br>Test class: testCases.TC019_VerifyHTaxLastPaymentUpdateTest</td>
+<td></td>
+<td>17</td>
+<td>testCases.TC019_VerifyHTaxLastPaymentUpdateTest@5a7005d</td></tr>
+</table><p>
+</body>
+</html>

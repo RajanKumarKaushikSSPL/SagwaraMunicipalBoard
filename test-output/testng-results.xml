@@ -1,0 +1,2262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="75" passed="72" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-05-12T11:33:42 IST" name="Master Suite" finished-at="2026-05-12T12:04:27 IST" duration-ms="1845660">
+    <groups>
+      <group name="Master">
+        <method signature="TC001_LoginTest.verify_login()[pri:0, instance:testCases.TC001_LoginTest@3eeb318f]" name="verify_login" class="testCases.TC001_LoginTest"/>
+        <method signature="TC003_ApplySelfAssessmentTest.verify_applySelfAssessmentPage()[pri:0, instance:testCases.TC003_ApplySelfAssessmentTest@a202ccb]" name="verify_applySelfAssessmentPage" class="testCases.TC003_ApplySelfAssessmentTest"/>
+        <method signature="TC004_VerifyActTest.verify_ActPageIsExists()[pri:0, instance:testCases.TC004_VerifyActTest@20f12539]" name="verify_ActPageIsExists" class="testCases.TC004_VerifyActTest"/>
+        <method signature="TC005_VerifyGalleryTest.verify_GalleryPageIsExists()[pri:0, instance:testCases.TC005_VerifyGalleryTest@75b25825]" name="verify_GalleryPageIsExists" class="testCases.TC005_VerifyGalleryTest"/>
+        <method signature="TC006_VerifyContactTest.verify_ContactPageIsExists()[pri:0, instance:testCases.TC006_VerifyContactTest@18025ced]" name="verify_ContactPageIsExists" class="testCases.TC006_VerifyContactTest"/>
+        <method signature="TC007_VerifyFeedbackTest.verify_FeedbackPageIsExists()[pri:0, instance:testCases.TC007_VerifyFeedbackTest@13cf7d52]" name="verify_FeedbackPageIsExists" class="testCases.TC007_VerifyFeedbackTest"/>
+        <method signature="TC008_VerifyHouseTaxEntryTest.verify_HouseTaxEntryPageIsExists()[pri:0, instance:testCases.TC008_VerifyHouseTaxEntryTest@3a3e4aff]" name="verify_HouseTaxEntryPageIsExists" class="testCases.TC008_VerifyHouseTaxEntryTest"/>
+        <method signature="TC009_HouseTaxEntryTest.verify_HouseTaxEntryPage()[pri:0, instance:testCases.TC009_HouseTaxEntryTest@5d2a4eed]" name="verify_HouseTaxEntryPage" class="testCases.TC009_HouseTaxEntryTest"/>
+        <method signature="TC010_VerifyLegacyEntryTest.verify_LegacyEntryPageIsExists()[pri:0, instance:testCases.TC010_VerifyLegacyEntryTest@57459491]" name="verify_LegacyEntryPageIsExists" class="testCases.TC010_VerifyLegacyEntryTest"/>
+        <method signature="TC011_LegacyEntryTest.verify_LegacyEntryPage()[pri:0, instance:testCases.TC011_LegacyEntryTest@3f0846c6]" name="verify_LegacyEntryPage" class="testCases.TC011_LegacyEntryTest"/>
+        <method signature="TC012_VerifySearchPropertyTest.verify_PropertyListPageExists()[pri:0, instance:testCases.TC012_VerifySearchPropertyTest@77a98a6a]" name="verify_PropertyListPageExists" class="testCases.TC012_VerifySearchPropertyTest"/>
+        <method signature="TC013_VerifyDocUploadTest.verify_PropertyListPageExists()[pri:0, instance:testCases.TC013_VerifyDocUploadTest@78fbff54]" name="verify_PropertyListPageExists" class="testCases.TC013_VerifyDocUploadTest"/>
+        <method signature="TC014_VerifyUpdatePropertyDetailsTest.verify_PropertyListPageExists()[pri:0, instance:testCases.TC014_VerifyUpdatePropertyDetailsTest@3e10dc6]" name="verify_PropertyListPageExists" class="testCases.TC014_VerifyUpdatePropertyDetailsTest"/>
+        <method signature="TC015_VerifyLastPaymentUpdateTest.verify_PropertyListPageExists()[pri:0, instance:testCases.TC015_VerifyLastPaymentUpdateTest@7e22550a]" name="verify_PropertyListPageExists" class="testCases.TC015_VerifyLastPaymentUpdateTest"/>
+        <method signature="TC016_VerifyUpdateOwnerDetailsTest.verify_PropertyListPageExists()[pri:0, instance:testCases.TC016_VerifyUpdateOwnerDetailsTest@45e37a7e]" name="verify_PropertyListPageExists" class="testCases.TC016_VerifyUpdateOwnerDetailsTest"/>
+        <method signature="TC017_VerifyWardUpdateTest.verify_PropertyListPageExists()[pri:0, instance:testCases.TC017_VerifyWardUpdateTest@62452cc9]" name="verify_PropertyListPageExists" class="testCases.TC017_VerifyWardUpdateTest"/>
+        <method signature="TC018_VerifyAdjustmentTest.verify_PropertyListPageExists()[pri:0, instance:testCases.TC018_VerifyAdjustmentTest@6941827a]" name="verify_PropertyListPageExists" class="testCases.TC018_VerifyAdjustmentTest"/>
+        <method signature="TC019_VerifyHTaxLastPaymentUpdateTest.verify_PropertyListPageExists()[pri:0, instance:testCases.TC019_VerifyHTaxLastPaymentUpdateTest@5a7005d]" name="verify_PropertyListPageExists" class="testCases.TC019_VerifyHTaxLastPaymentUpdateTest"/>
+        <method signature="TC020_VerifyCounterReportTest.verify_CounterReportPageExists()[pri:0, instance:testCases.TC020_VerifyCounterReportTest@5bc9ba1d]" name="verify_CounterReportPageExists" class="testCases.TC020_VerifyCounterReportTest"/>
+        <method signature="TC021_VerifyTCCollectionSummaryTest.verify_TCCollectionSummaryPageExists()[pri:0, instance:testCases.TC021_VerifyTCCollectionSummaryTest@1021f6c9]" name="verify_TCCollectionSummaryPageExists" class="testCases.TC021_VerifyTCCollectionSummaryTest"/>
+        <method signature="TC022_VerifyDCBReportTest.verify_DCBULBWisePageExists()[pri:0, instance:testCases.TC022_VerifyDCBReportTest@7516e4e5]" name="verify_DCBULBWisePageExists" class="testCases.TC022_VerifyDCBReportTest"/>
+        <method signature="TC023_VerifySAFReportTest.verify_SAFReportPageExists()[pri:0, instance:testCases.TC023_VerifySAFReportTest@488eb7f2]" name="verify_SAFReportPageExists" class="testCases.TC023_VerifySAFReportTest"/>
+        <method signature="TC024_VerifyZoneAndWardWiseCollectionReportTest.verify_WardWiseCollectionReportPageExists()[pri:0, instance:testCases.TC024_VerifyZoneAndWardWiseCollectionReportTest@5e81e5ac]" name="verify_WardWiseCollectionReportPageExists" class="testCases.TC024_VerifyZoneAndWardWiseCollectionReportTest"/>
+        <method signature="TC025_VerifyPaymentModeWiseCollectionTest.verify_PaymentModeWiseCollectionPageExists()[pri:0, instance:testCases.TC025_VerifyPaymentModeWiseCollectionTest@4189d70b]" name="verify_PaymentModeWiseCollectionPageExists" class="testCases.TC025_VerifyPaymentModeWiseCollectionTest"/>
+        <method signature="TC026_VerifyULBReportTest.verify_AllModuleReportPageExists()[pri:0, instance:testCases.TC026_VerifyULBReportTest@3fa2213]" name="verify_AllModuleReportPageExists" class="testCases.TC026_VerifyULBReportTest"/>
+        <method signature="TC027_VerifyTransactionDeactivateReportTest.verify_TransactionDeactivateReportPageExists()[pri:0, instance:testCases.TC027_VerifyTransactionDeactivateReportTest@3e7634b9]" name="verify_TransactionDeactivateReportPageExists" class="testCases.TC027_VerifyTransactionDeactivateReportTest"/>
+        <method signature="TC028_VerifyAllModuleTCSummaryTest.verify_AllModuleOperatorWiseCollectionPageExists()[pri:0, instance:testCases.TC028_VerifyAllModuleTCSummaryTest@6f0b0a5e]" name="verify_AllModuleOperatorWiseCollectionPageExists" class="testCases.TC028_VerifyAllModuleTCSummaryTest"/>
+        <method signature="TC029_VerifyPrintAllPaymentReceiptTest.verify_PrintAllPaymentReceiptPageExists()[pri:0, instance:testCases.TC029_VerifyPrintAllPaymentReceiptTest@6035b93b]" name="verify_PrintAllPaymentReceiptPageExists" class="testCases.TC029_VerifyPrintAllPaymentReceiptTest"/>
+        <method signature="TC030_VerifyPropertyWiseDCBTest.verify_DCBReportPageExists()[pri:0, instance:testCases.TC030_VerifyPropertyWiseDCBTest@320de594]" name="verify_DCBReportPageExists" class="testCases.TC030_VerifyPropertyWiseDCBTest"/>
+        <method signature="TC031_VerifyPrintAllDemandReceiptTest.verify_PrintAllDemandReceiptPageExists()[pri:0, instance:testCases.TC031_VerifyPrintAllDemandReceiptTest@3dd1dc90]" name="verify_PrintAllDemandReceiptPageExists" class="testCases.TC031_VerifyPrintAllDemandReceiptTest"/>
+        <method signature="TC032_VerifyReassessmentDiffTest.verify_ReassessmentDiffReportPageExists()[pri:0, instance:testCases.TC032_VerifyReassessmentDiffTest@abf688e]" name="verify_ReassessmentDiffReportPageExists" class="testCases.TC032_VerifyReassessmentDiffTest"/>
+        <method signature="TC033_VerifyChequeBouncedCollectionReportTest.verify_ChequeBouncedCollectionReportPageExists()[pri:0, instance:testCases.TC033_VerifyChequeBouncedCollectionReportTest@478ee483]" name="verify_ChequeBouncedCollectionReportPageExists" class="testCases.TC033_VerifyChequeBouncedCollectionReportTest"/>
+        <method signature="TC034_VerifyTaxCollectionReportTest.verify_TaxCollectionReportPageExists()[pri:0, instance:testCases.TC034_VerifyTaxCollectionReportTest@1a7288a3]" name="verify_TaxCollectionReportPageExists" class="testCases.TC034_VerifyTaxCollectionReportTest"/>
+        <method signature="TC035_VerifyApptiListTest.verify_ApptiFormListPageExists()[pri:0, instance:testCases.TC035_VerifyApptiListTest@2974f221]" name="verify_ApptiFormListPageExists" class="testCases.TC035_VerifyApptiListTest"/>
+        <method signature="TC036_VerifyAppttiPendingReportTest.verify_AppttiPendingReportPageExists()[pri:0, instance:testCases.TC036_VerifyAppttiPendingReportTest@58fe0499]" name="verify_AppttiPendingReportPageExists" class="testCases.TC036_VerifyAppttiPendingReportTest"/>
+        <method signature="TC037_VerifyApptiRejectListTest.verify_ApptiRejectListPageExists()[pri:0, instance:testCases.TC037_VerifyApptiRejectListTest@686449f9]" name="verify_ApptiRejectListPageExists" class="testCases.TC037_VerifyApptiRejectListTest"/>
+        <method signature="TC038_VerifyTCVisitReportTest.verify_TCVisitReportPageExists()[pri:0, instance:testCases.TC038_VerifyTCVisitReportTest@665df3c6]" name="verify_TCVisitReportPageExists" class="testCases.TC038_VerifyTCVisitReportTest"/>
+        <method signature="TC039_VerifyTCVisitSummaryTest.verify_TCVisitSummaryPageExists()[pri:0, instance:testCases.TC039_VerifyTCVisitSummaryTest@68b6f0d6]" name="verify_TCVisitSummaryPageExists" class="testCases.TC039_VerifyTCVisitSummaryTest"/>
+        <method signature="TC040_VerifyPropertyWiseTCVisitTest.verify_PropertyWiseTCVisitPageExists()[pri:0, instance:testCases.TC040_VerifyPropertyWiseTCVisitTest@4044fb95]" name="verify_PropertyWiseTCVisitPageExists" class="testCases.TC040_VerifyPropertyWiseTCVisitTest"/>
+        <method signature="TC041_VerifyTLVisitReportTest.verify_TLVisitReportPageExists()[pri:0, instance:testCases.TC041_VerifyTLVisitReportTest@aa549e5]" name="verify_TLVisitReportPageExists" class="testCases.TC041_VerifyTLVisitReportTest"/>
+        <method signature="TC042_VerifyAllUpdationReportTest.verify_AllUpdationReportPageExists()[pri:0, instance:testCases.TC042_VerifyAllUpdationReportTest@36f48b4]" name="verify_AllUpdationReportPageExists" class="testCases.TC042_VerifyAllUpdationReportTest"/>
+        <method signature="TC043_VerifySurveyReportTest.verify_SurveyReportPageExists()[pri:0, instance:testCases.TC043_VerifySurveyReportTest@5c00384f]" name="verify_SurveyReportPageExists" class="testCases.TC043_VerifySurveyReportTest"/>
+        <method signature="TC044_VerifySurveySummaryReportTest.verify_SurveySummaryReportPageExists()[pri:0, instance:testCases.TC044_VerifySurveySummaryReportTest@3b7ff809]" name="verify_SurveySummaryReportPageExists" class="testCases.TC044_VerifySurveySummaryReportTest"/>
+        <method signature="TC045_VerifySurveyTeamSummaryTest.verify_SurveyTeamSummaryPageExists()[pri:0, instance:testCases.TC045_VerifySurveyTeamSummaryTest@1bb564e2]" name="verify_SurveyTeamSummaryPageExists" class="testCases.TC045_VerifySurveyTeamSummaryTest"/>
+        <method signature="TC046_VerifySurveyAssessedListTest.verify_SurveyAssessedListPageExists()[pri:0, instance:testCases.TC046_VerifySurveyAssessedListTest@62e6b5c8]" name="verify_SurveyAssessedListPageExists" class="testCases.TC046_VerifySurveyAssessedListTest"/>
+        <method signature="TC047_VerifySurveyAssessedReportTest.verify_SurveyAssessedReportPageExists()[pri:0, instance:testCases.TC047_VerifySurveyAssessedReportTest@3f792b9b]" name="verify_SurveyAssessedReportPageExists" class="testCases.TC047_VerifySurveyAssessedReportTest"/>
+        <method signature="TC048_VerifyWardWiseSurveyReportTest.verify_WardWiseSurveyReportPageExists()[pri:0, instance:testCases.TC048_VerifyWardWiseSurveyReportTest@7b8233cd]" name="verify_WardWiseSurveyReportPageExists" class="testCases.TC048_VerifyWardWiseSurveyReportTest"/>
+        <method signature="TC049_VerifySurveyPendingReportTest.verify_SurveyPendingReportPageExists()[pri:0, instance:testCases.TC049_VerifySurveyPendingReportTest@4b20ca2b]" name="verify_SurveyPendingReportPageExists" class="testCases.TC049_VerifySurveyPendingReportTest"/>
+        <method signature="TC050_VerifySurveyLevelSummaryReportTest.verify_SurveyLevelSummaryReportPageExists()[pri:0, instance:testCases.TC050_VerifySurveyLevelSummaryReportTest@1cbf6e72]" name="verify_SurveyLevelSummaryReportPageExists" class="testCases.TC050_VerifySurveyLevelSummaryReportTest"/>
+        <method signature="TC051_VerifyUserWiseForwardSummaryTest.verify_UserWiseForwardSummaryPageExists()[pri:0, instance:testCases.TC051_VerifyUserWiseForwardSummaryTest@6aecbb8d]" name="verify_UserWiseForwardSummaryPageExists" class="testCases.TC051_VerifyUserWiseForwardSummaryTest"/>
+        <method signature="TC052_VerifyUserWiseSurveyEditReportTest.verify_UserWiseSurveyEditReportPageExists()[pri:0, instance:testCases.TC052_VerifyUserWiseSurveyEditReportTest@1af146]" name="verify_UserWiseSurveyEditReportPageExists" class="testCases.TC052_VerifyUserWiseSurveyEditReportTest"/>
+        <method signature="TC053_VerifySurveyModificationReportTest.verify_SurveyModificationReportPageExists()[pri:0, instance:testCases.TC053_VerifySurveyModificationReportTest@4da602fc]" name="verify_SurveyModificationReportPageExists" class="testCases.TC053_VerifySurveyModificationReportTest"/>
+        <method signature="TC054_VerifySurveyGeotaggingReportTest.verify_SurveyGeotaggingReportPageExists()[pri:0, instance:testCases.TC054_VerifySurveyGeotaggingReportTest@2a8d39c4]" name="verify_SurveyGeotaggingReportPageExists" class="testCases.TC054_VerifySurveyGeotaggingReportTest"/>
+        <method signature="TC055_VerifyExPartySurveyNoticeTest.verify_ExPartySurveyNoticePageExists()[pri:0, instance:testCases.TC055_VerifyExPartySurveyNoticeTest@25b2cfcb]" name="verify_ExPartySurveyNoticePageExists" class="testCases.TC055_VerifyExPartySurveyNoticeTest"/>
+        <method signature="TC056_VerifySurveyNoticeListTest.verify_SurveyNoticeListPageExists()[pri:0, instance:testCases.TC056_VerifySurveyNoticeListTest@72758afa]" name="verify_SurveyNoticeListPageExists" class="testCases.TC056_VerifySurveyNoticeListTest"/>
+        <method signature="TC057_VerifyBulkSurveyNoticePrintTest.verify_BulkSurveyNoticePageExists()[pri:0, instance:testCases.TC057_VerifyBulkSurveyNoticePrintTest@fb9c7aa]" name="verify_BulkSurveyNoticePageExists" class="testCases.TC057_VerifyBulkSurveyNoticePrintTest"/>
+        <method signature="TC058_VeirfySurveyNoticeReceviedListTest.verify_SurveyNoticeReceviedListPageExists()[pri:0, instance:testCases.TC058_VeirfySurveyNoticeReceviedListTest@4c398c80]" name="verify_SurveyNoticeReceviedListPageExists" class="testCases.TC058_VeirfySurveyNoticeReceviedListTest"/>
+        <method signature="TC059_VerifySurveyNoticeReceivedReportTest.verify_SurveyNoticeReceivedReportPageExists()[pri:0, instance:testCases.TC059_VerifySurveyNoticeReceivedReportTest@7fc6de5b]" name="verify_SurveyNoticeReceivedReportPageExists" class="testCases.TC059_VerifySurveyNoticeReceivedReportTest"/>
+        <method signature="TC060_VerifySurveyNoticeDistributedReportTest.verify_SurveyNoticeDistributedReportPageExists()[pri:0, instance:testCases.TC060_VerifySurveyNoticeDistributedReportTest@21baa903]" name="verify_SurveyNoticeDistributedReportPageExists" class="testCases.TC060_VerifySurveyNoticeDistributedReportTest"/>
+        <method signature="TC061_VerifySurveyDemandReportTest.verify_SurveyDemandReportPageExists()[pri:0, instance:testCases.TC061_VerifySurveyDemandReportTest@607fbe09]" name="verify_SurveyDemandReportPageExists" class="testCases.TC061_VerifySurveyDemandReportTest"/>
+      </group> <!-- Master -->
+      <group name="Sanity">
+        <method signature="TC001_LoginTest.verify_login()[pri:0, instance:testCases.TC001_LoginTest@3eeb318f]" name="verify_login" class="testCases.TC001_LoginTest"/>
+        <method signature="TC003_ApplySelfAssessmentTest.verify_applySelfAssessmentPage()[pri:0, instance:testCases.TC003_ApplySelfAssessmentTest@a202ccb]" name="verify_applySelfAssessmentPage" class="testCases.TC003_ApplySelfAssessmentTest"/>
+        <method signature="TC004_VerifyActTest.verify_ActPageIsExists()[pri:0, instance:testCases.TC004_VerifyActTest@20f12539]" name="verify_ActPageIsExists" class="testCases.TC004_VerifyActTest"/>
+        <method signature="TC005_VerifyGalleryTest.verify_GalleryPageIsExists()[pri:0, instance:testCases.TC005_VerifyGalleryTest@75b25825]" name="verify_GalleryPageIsExists" class="testCases.TC005_VerifyGalleryTest"/>
+        <method signature="TC006_VerifyContactTest.verify_ContactPageIsExists()[pri:0, instance:testCases.TC006_VerifyContactTest@18025ced]" name="verify_ContactPageIsExists" class="testCases.TC006_VerifyContactTest"/>
+        <method signature="TC007_VerifyFeedbackTest.verify_FeedbackPageIsExists()[pri:0, instance:testCases.TC007_VerifyFeedbackTest@13cf7d52]" name="verify_FeedbackPageIsExists" class="testCases.TC007_VerifyFeedbackTest"/>
+        <method signature="TC008_VerifyHouseTaxEntryTest.verify_HouseTaxEntryPageIsExists()[pri:0, instance:testCases.TC008_VerifyHouseTaxEntryTest@3a3e4aff]" name="verify_HouseTaxEntryPageIsExists" class="testCases.TC008_VerifyHouseTaxEntryTest"/>
+        <method signature="TC009_HouseTaxEntryTest.verify_HouseTaxEntryPage()[pri:0, instance:testCases.TC009_HouseTaxEntryTest@5d2a4eed]" name="verify_HouseTaxEntryPage" class="testCases.TC009_HouseTaxEntryTest"/>
+        <method signature="TC010_VerifyLegacyEntryTest.verify_LegacyEntryPageIsExists()[pri:0, instance:testCases.TC010_VerifyLegacyEntryTest@57459491]" name="verify_LegacyEntryPageIsExists" class="testCases.TC010_VerifyLegacyEntryTest"/>
+        <method signature="TC011_LegacyEntryTest.verify_LegacyEntryPage()[pri:0, instance:testCases.TC011_LegacyEntryTest@3f0846c6]" name="verify_LegacyEntryPage" class="testCases.TC011_LegacyEntryTest"/>
+        <method signature="TC012_VerifySearchPropertyTest.verify_PropertyListPageExists()[pri:0, instance:testCases.TC012_VerifySearchPropertyTest@77a98a6a]" name="verify_PropertyListPageExists" class="testCases.TC012_VerifySearchPropertyTest"/>
+        <method signature="TC013_VerifyDocUploadTest.verify_PropertyListPageExists()[pri:0, instance:testCases.TC013_VerifyDocUploadTest@78fbff54]" name="verify_PropertyListPageExists" class="testCases.TC013_VerifyDocUploadTest"/>
+        <method signature="TC014_VerifyUpdatePropertyDetailsTest.verify_PropertyListPageExists()[pri:0, instance:testCases.TC014_VerifyUpdatePropertyDetailsTest@3e10dc6]" name="verify_PropertyListPageExists" class="testCases.TC014_VerifyUpdatePropertyDetailsTest"/>
+        <method signature="TC015_VerifyLastPaymentUpdateTest.verify_PropertyListPageExists()[pri:0, instance:testCases.TC015_VerifyLastPaymentUpdateTest@7e22550a]" name="verify_PropertyListPageExists" class="testCases.TC015_VerifyLastPaymentUpdateTest"/>
+        <method signature="TC016_VerifyUpdateOwnerDetailsTest.verify_PropertyListPageExists()[pri:0, instance:testCases.TC016_VerifyUpdateOwnerDetailsTest@45e37a7e]" name="verify_PropertyListPageExists" class="testCases.TC016_VerifyUpdateOwnerDetailsTest"/>
+        <method signature="TC017_VerifyWardUpdateTest.verify_PropertyListPageExists()[pri:0, instance:testCases.TC017_VerifyWardUpdateTest@62452cc9]" name="verify_PropertyListPageExists" class="testCases.TC017_VerifyWardUpdateTest"/>
+        <method signature="TC018_VerifyAdjustmentTest.verify_PropertyListPageExists()[pri:0, instance:testCases.TC018_VerifyAdjustmentTest@6941827a]" name="verify_PropertyListPageExists" class="testCases.TC018_VerifyAdjustmentTest"/>
+        <method signature="TC019_VerifyHTaxLastPaymentUpdateTest.verify_PropertyListPageExists()[pri:0, instance:testCases.TC019_VerifyHTaxLastPaymentUpdateTest@5a7005d]" name="verify_PropertyListPageExists" class="testCases.TC019_VerifyHTaxLastPaymentUpdateTest"/>
+        <method signature="TC020_VerifyCounterReportTest.verify_CounterReportPageExists()[pri:0, instance:testCases.TC020_VerifyCounterReportTest@5bc9ba1d]" name="verify_CounterReportPageExists" class="testCases.TC020_VerifyCounterReportTest"/>
+        <method signature="TC021_VerifyTCCollectionSummaryTest.verify_TCCollectionSummaryPageExists()[pri:0, instance:testCases.TC021_VerifyTCCollectionSummaryTest@1021f6c9]" name="verify_TCCollectionSummaryPageExists" class="testCases.TC021_VerifyTCCollectionSummaryTest"/>
+        <method signature="TC022_VerifyDCBReportTest.verify_DCBULBWisePageExists()[pri:0, instance:testCases.TC022_VerifyDCBReportTest@7516e4e5]" name="verify_DCBULBWisePageExists" class="testCases.TC022_VerifyDCBReportTest"/>
+        <method signature="TC023_VerifySAFReportTest.verify_SAFReportPageExists()[pri:0, instance:testCases.TC023_VerifySAFReportTest@488eb7f2]" name="verify_SAFReportPageExists" class="testCases.TC023_VerifySAFReportTest"/>
+        <method signature="TC024_VerifyZoneAndWardWiseCollectionReportTest.verify_WardWiseCollectionReportPageExists()[pri:0, instance:testCases.TC024_VerifyZoneAndWardWiseCollectionReportTest@5e81e5ac]" name="verify_WardWiseCollectionReportPageExists" class="testCases.TC024_VerifyZoneAndWardWiseCollectionReportTest"/>
+        <method signature="TC025_VerifyPaymentModeWiseCollectionTest.verify_PaymentModeWiseCollectionPageExists()[pri:0, instance:testCases.TC025_VerifyPaymentModeWiseCollectionTest@4189d70b]" name="verify_PaymentModeWiseCollectionPageExists" class="testCases.TC025_VerifyPaymentModeWiseCollectionTest"/>
+        <method signature="TC026_VerifyULBReportTest.verify_AllModuleReportPageExists()[pri:0, instance:testCases.TC026_VerifyULBReportTest@3fa2213]" name="verify_AllModuleReportPageExists" class="testCases.TC026_VerifyULBReportTest"/>
+        <method signature="TC027_VerifyTransactionDeactivateReportTest.verify_TransactionDeactivateReportPageExists()[pri:0, instance:testCases.TC027_VerifyTransactionDeactivateReportTest@3e7634b9]" name="verify_TransactionDeactivateReportPageExists" class="testCases.TC027_VerifyTransactionDeactivateReportTest"/>
+        <method signature="TC028_VerifyAllModuleTCSummaryTest.verify_AllModuleOperatorWiseCollectionPageExists()[pri:0, instance:testCases.TC028_VerifyAllModuleTCSummaryTest@6f0b0a5e]" name="verify_AllModuleOperatorWiseCollectionPageExists" class="testCases.TC028_VerifyAllModuleTCSummaryTest"/>
+        <method signature="TC029_VerifyPrintAllPaymentReceiptTest.verify_PrintAllPaymentReceiptPageExists()[pri:0, instance:testCases.TC029_VerifyPrintAllPaymentReceiptTest@6035b93b]" name="verify_PrintAllPaymentReceiptPageExists" class="testCases.TC029_VerifyPrintAllPaymentReceiptTest"/>
+        <method signature="TC030_VerifyPropertyWiseDCBTest.verify_DCBReportPageExists()[pri:0, instance:testCases.TC030_VerifyPropertyWiseDCBTest@320de594]" name="verify_DCBReportPageExists" class="testCases.TC030_VerifyPropertyWiseDCBTest"/>
+        <method signature="TC031_VerifyPrintAllDemandReceiptTest.verify_PrintAllDemandReceiptPageExists()[pri:0, instance:testCases.TC031_VerifyPrintAllDemandReceiptTest@3dd1dc90]" name="verify_PrintAllDemandReceiptPageExists" class="testCases.TC031_VerifyPrintAllDemandReceiptTest"/>
+        <method signature="TC032_VerifyReassessmentDiffTest.verify_ReassessmentDiffReportPageExists()[pri:0, instance:testCases.TC032_VerifyReassessmentDiffTest@abf688e]" name="verify_ReassessmentDiffReportPageExists" class="testCases.TC032_VerifyReassessmentDiffTest"/>
+        <method signature="TC033_VerifyChequeBouncedCollectionReportTest.verify_ChequeBouncedCollectionReportPageExists()[pri:0, instance:testCases.TC033_VerifyChequeBouncedCollectionReportTest@478ee483]" name="verify_ChequeBouncedCollectionReportPageExists" class="testCases.TC033_VerifyChequeBouncedCollectionReportTest"/>
+        <method signature="TC034_VerifyTaxCollectionReportTest.verify_TaxCollectionReportPageExists()[pri:0, instance:testCases.TC034_VerifyTaxCollectionReportTest@1a7288a3]" name="verify_TaxCollectionReportPageExists" class="testCases.TC034_VerifyTaxCollectionReportTest"/>
+        <method signature="TC035_VerifyApptiListTest.verify_ApptiFormListPageExists()[pri:0, instance:testCases.TC035_VerifyApptiListTest@2974f221]" name="verify_ApptiFormListPageExists" class="testCases.TC035_VerifyApptiListTest"/>
+        <method signature="TC036_VerifyAppttiPendingReportTest.verify_AppttiPendingReportPageExists()[pri:0, instance:testCases.TC036_VerifyAppttiPendingReportTest@58fe0499]" name="verify_AppttiPendingReportPageExists" class="testCases.TC036_VerifyAppttiPendingReportTest"/>
+        <method signature="TC037_VerifyApptiRejectListTest.verify_ApptiRejectListPageExists()[pri:0, instance:testCases.TC037_VerifyApptiRejectListTest@686449f9]" name="verify_ApptiRejectListPageExists" class="testCases.TC037_VerifyApptiRejectListTest"/>
+        <method signature="TC038_VerifyTCVisitReportTest.verify_TCVisitReportPageExists()[pri:0, instance:testCases.TC038_VerifyTCVisitReportTest@665df3c6]" name="verify_TCVisitReportPageExists" class="testCases.TC038_VerifyTCVisitReportTest"/>
+        <method signature="TC039_VerifyTCVisitSummaryTest.verify_TCVisitSummaryPageExists()[pri:0, instance:testCases.TC039_VerifyTCVisitSummaryTest@68b6f0d6]" name="verify_TCVisitSummaryPageExists" class="testCases.TC039_VerifyTCVisitSummaryTest"/>
+        <method signature="TC040_VerifyPropertyWiseTCVisitTest.verify_PropertyWiseTCVisitPageExists()[pri:0, instance:testCases.TC040_VerifyPropertyWiseTCVisitTest@4044fb95]" name="verify_PropertyWiseTCVisitPageExists" class="testCases.TC040_VerifyPropertyWiseTCVisitTest"/>
+        <method signature="TC041_VerifyTLVisitReportTest.verify_TLVisitReportPageExists()[pri:0, instance:testCases.TC041_VerifyTLVisitReportTest@aa549e5]" name="verify_TLVisitReportPageExists" class="testCases.TC041_VerifyTLVisitReportTest"/>
+        <method signature="TC042_VerifyAllUpdationReportTest.verify_AllUpdationReportPageExists()[pri:0, instance:testCases.TC042_VerifyAllUpdationReportTest@36f48b4]" name="verify_AllUpdationReportPageExists" class="testCases.TC042_VerifyAllUpdationReportTest"/>
+        <method signature="TC043_VerifySurveyReportTest.verify_SurveyReportPageExists()[pri:0, instance:testCases.TC043_VerifySurveyReportTest@5c00384f]" name="verify_SurveyReportPageExists" class="testCases.TC043_VerifySurveyReportTest"/>
+        <method signature="TC044_VerifySurveySummaryReportTest.verify_SurveySummaryReportPageExists()[pri:0, instance:testCases.TC044_VerifySurveySummaryReportTest@3b7ff809]" name="verify_SurveySummaryReportPageExists" class="testCases.TC044_VerifySurveySummaryReportTest"/>
+        <method signature="TC045_VerifySurveyTeamSummaryTest.verify_SurveyTeamSummaryPageExists()[pri:0, instance:testCases.TC045_VerifySurveyTeamSummaryTest@1bb564e2]" name="verify_SurveyTeamSummaryPageExists" class="testCases.TC045_VerifySurveyTeamSummaryTest"/>
+        <method signature="TC046_VerifySurveyAssessedListTest.verify_SurveyAssessedListPageExists()[pri:0, instance:testCases.TC046_VerifySurveyAssessedListTest@62e6b5c8]" name="verify_SurveyAssessedListPageExists" class="testCases.TC046_VerifySurveyAssessedListTest"/>
+        <method signature="TC047_VerifySurveyAssessedReportTest.verify_SurveyAssessedReportPageExists()[pri:0, instance:testCases.TC047_VerifySurveyAssessedReportTest@3f792b9b]" name="verify_SurveyAssessedReportPageExists" class="testCases.TC047_VerifySurveyAssessedReportTest"/>
+        <method signature="TC048_VerifyWardWiseSurveyReportTest.verify_WardWiseSurveyReportPageExists()[pri:0, instance:testCases.TC048_VerifyWardWiseSurveyReportTest@7b8233cd]" name="verify_WardWiseSurveyReportPageExists" class="testCases.TC048_VerifyWardWiseSurveyReportTest"/>
+        <method signature="TC049_VerifySurveyPendingReportTest.verify_SurveyPendingReportPageExists()[pri:0, instance:testCases.TC049_VerifySurveyPendingReportTest@4b20ca2b]" name="verify_SurveyPendingReportPageExists" class="testCases.TC049_VerifySurveyPendingReportTest"/>
+        <method signature="TC050_VerifySurveyLevelSummaryReportTest.verify_SurveyLevelSummaryReportPageExists()[pri:0, instance:testCases.TC050_VerifySurveyLevelSummaryReportTest@1cbf6e72]" name="verify_SurveyLevelSummaryReportPageExists" class="testCases.TC050_VerifySurveyLevelSummaryReportTest"/>
+        <method signature="TC051_VerifyUserWiseForwardSummaryTest.verify_UserWiseForwardSummaryPageExists()[pri:0, instance:testCases.TC051_VerifyUserWiseForwardSummaryTest@6aecbb8d]" name="verify_UserWiseForwardSummaryPageExists" class="testCases.TC051_VerifyUserWiseForwardSummaryTest"/>
+        <method signature="TC052_VerifyUserWiseSurveyEditReportTest.verify_UserWiseSurveyEditReportPageExists()[pri:0, instance:testCases.TC052_VerifyUserWiseSurveyEditReportTest@1af146]" name="verify_UserWiseSurveyEditReportPageExists" class="testCases.TC052_VerifyUserWiseSurveyEditReportTest"/>
+        <method signature="TC053_VerifySurveyModificationReportTest.verify_SurveyModificationReportPageExists()[pri:0, instance:testCases.TC053_VerifySurveyModificationReportTest@4da602fc]" name="verify_SurveyModificationReportPageExists" class="testCases.TC053_VerifySurveyModificationReportTest"/>
+        <method signature="TC054_VerifySurveyGeotaggingReportTest.verify_SurveyGeotaggingReportPageExists()[pri:0, instance:testCases.TC054_VerifySurveyGeotaggingReportTest@2a8d39c4]" name="verify_SurveyGeotaggingReportPageExists" class="testCases.TC054_VerifySurveyGeotaggingReportTest"/>
+        <method signature="TC055_VerifyExPartySurveyNoticeTest.verify_ExPartySurveyNoticePageExists()[pri:0, instance:testCases.TC055_VerifyExPartySurveyNoticeTest@25b2cfcb]" name="verify_ExPartySurveyNoticePageExists" class="testCases.TC055_VerifyExPartySurveyNoticeTest"/>
+        <method signature="TC056_VerifySurveyNoticeListTest.verify_SurveyNoticeListPageExists()[pri:0, instance:testCases.TC056_VerifySurveyNoticeListTest@72758afa]" name="verify_SurveyNoticeListPageExists" class="testCases.TC056_VerifySurveyNoticeListTest"/>
+        <method signature="TC057_VerifyBulkSurveyNoticePrintTest.verify_BulkSurveyNoticePageExists()[pri:0, instance:testCases.TC057_VerifyBulkSurveyNoticePrintTest@fb9c7aa]" name="verify_BulkSurveyNoticePageExists" class="testCases.TC057_VerifyBulkSurveyNoticePrintTest"/>
+        <method signature="TC058_VeirfySurveyNoticeReceviedListTest.verify_SurveyNoticeReceviedListPageExists()[pri:0, instance:testCases.TC058_VeirfySurveyNoticeReceviedListTest@4c398c80]" name="verify_SurveyNoticeReceviedListPageExists" class="testCases.TC058_VeirfySurveyNoticeReceviedListTest"/>
+        <method signature="TC059_VerifySurveyNoticeReceivedReportTest.verify_SurveyNoticeReceivedReportPageExists()[pri:0, instance:testCases.TC059_VerifySurveyNoticeReceivedReportTest@7fc6de5b]" name="verify_SurveyNoticeReceivedReportPageExists" class="testCases.TC059_VerifySurveyNoticeReceivedReportTest"/>
+        <method signature="TC060_VerifySurveyNoticeDistributedReportTest.verify_SurveyNoticeDistributedReportPageExists()[pri:0, instance:testCases.TC060_VerifySurveyNoticeDistributedReportTest@21baa903]" name="verify_SurveyNoticeDistributedReportPageExists" class="testCases.TC060_VerifySurveyNoticeDistributedReportTest"/>
+        <method signature="TC061_VerifySurveyDemandReportTest.verify_SurveyDemandReportPageExists()[pri:0, instance:testCases.TC061_VerifySurveyDemandReportTest@607fbe09]" name="verify_SurveyDemandReportPageExists" class="testCases.TC061_VerifySurveyDemandReportTest"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="TC001_LoginTest.verify_login()[pri:0, instance:testCases.TC001_LoginTest@3eeb318f]" name="verify_login" class="testCases.TC001_LoginTest"/>
+        <method signature="TC003_ApplySelfAssessmentTest.verify_applySelfAssessmentPage()[pri:0, instance:testCases.TC003_ApplySelfAssessmentTest@a202ccb]" name="verify_applySelfAssessmentPage" class="testCases.TC003_ApplySelfAssessmentTest"/>
+        <method signature="TC004_VerifyActTest.verify_ActPageIsExists()[pri:0, instance:testCases.TC004_VerifyActTest@20f12539]" name="verify_ActPageIsExists" class="testCases.TC004_VerifyActTest"/>
+        <method signature="TC005_VerifyGalleryTest.verify_GalleryPageIsExists()[pri:0, instance:testCases.TC005_VerifyGalleryTest@75b25825]" name="verify_GalleryPageIsExists" class="testCases.TC005_VerifyGalleryTest"/>
+        <method signature="TC006_VerifyContactTest.verify_ContactPageIsExists()[pri:0, instance:testCases.TC006_VerifyContactTest@18025ced]" name="verify_ContactPageIsExists" class="testCases.TC006_VerifyContactTest"/>
+        <method signature="TC007_VerifyFeedbackTest.verify_FeedbackPageIsExists()[pri:0, instance:testCases.TC007_VerifyFeedbackTest@13cf7d52]" name="verify_FeedbackPageIsExists" class="testCases.TC007_VerifyFeedbackTest"/>
+        <method signature="TC008_VerifyHouseTaxEntryTest.verify_HouseTaxEntryPageIsExists()[pri:0, instance:testCases.TC008_VerifyHouseTaxEntryTest@3a3e4aff]" name="verify_HouseTaxEntryPageIsExists" class="testCases.TC008_VerifyHouseTaxEntryTest"/>
+        <method signature="TC009_HouseTaxEntryTest.verify_HouseTaxEntryPage()[pri:0, instance:testCases.TC009_HouseTaxEntryTest@5d2a4eed]" name="verify_HouseTaxEntryPage" class="testCases.TC009_HouseTaxEntryTest"/>
+        <method signature="TC010_VerifyLegacyEntryTest.verify_LegacyEntryPageIsExists()[pri:0, instance:testCases.TC010_VerifyLegacyEntryTest@57459491]" name="verify_LegacyEntryPageIsExists" class="testCases.TC010_VerifyLegacyEntryTest"/>
+        <method signature="TC011_LegacyEntryTest.verify_LegacyEntryPage()[pri:0, instance:testCases.TC011_LegacyEntryTest@3f0846c6]" name="verify_LegacyEntryPage" class="testCases.TC011_LegacyEntryTest"/>
+        <method signature="TC012_VerifySearchPropertyTest.verify_PropertyListPageExists()[pri:0, instance:testCases.TC012_VerifySearchPropertyTest@77a98a6a]" name="verify_PropertyListPageExists" class="testCases.TC012_VerifySearchPropertyTest"/>
+        <method signature="TC013_VerifyDocUploadTest.verify_PropertyListPageExists()[pri:0, instance:testCases.TC013_VerifyDocUploadTest@78fbff54]" name="verify_PropertyListPageExists" class="testCases.TC013_VerifyDocUploadTest"/>
+        <method signature="TC014_VerifyUpdatePropertyDetailsTest.verify_PropertyListPageExists()[pri:0, instance:testCases.TC014_VerifyUpdatePropertyDetailsTest@3e10dc6]" name="verify_PropertyListPageExists" class="testCases.TC014_VerifyUpdatePropertyDetailsTest"/>
+        <method signature="TC015_VerifyLastPaymentUpdateTest.verify_PropertyListPageExists()[pri:0, instance:testCases.TC015_VerifyLastPaymentUpdateTest@7e22550a]" name="verify_PropertyListPageExists" class="testCases.TC015_VerifyLastPaymentUpdateTest"/>
+        <method signature="TC016_VerifyUpdateOwnerDetailsTest.verify_PropertyListPageExists()[pri:0, instance:testCases.TC016_VerifyUpdateOwnerDetailsTest@45e37a7e]" name="verify_PropertyListPageExists" class="testCases.TC016_VerifyUpdateOwnerDetailsTest"/>
+        <method signature="TC017_VerifyWardUpdateTest.verify_PropertyListPageExists()[pri:0, instance:testCases.TC017_VerifyWardUpdateTest@62452cc9]" name="verify_PropertyListPageExists" class="testCases.TC017_VerifyWardUpdateTest"/>
+        <method signature="TC018_VerifyAdjustmentTest.verify_PropertyListPageExists()[pri:0, instance:testCases.TC018_VerifyAdjustmentTest@6941827a]" name="verify_PropertyListPageExists" class="testCases.TC018_VerifyAdjustmentTest"/>
+        <method signature="TC019_VerifyHTaxLastPaymentUpdateTest.verify_PropertyListPageExists()[pri:0, instance:testCases.TC019_VerifyHTaxLastPaymentUpdateTest@5a7005d]" name="verify_PropertyListPageExists" class="testCases.TC019_VerifyHTaxLastPaymentUpdateTest"/>
+        <method signature="TC020_VerifyCounterReportTest.verify_CounterReportPageExists()[pri:0, instance:testCases.TC020_VerifyCounterReportTest@5bc9ba1d]" name="verify_CounterReportPageExists" class="testCases.TC020_VerifyCounterReportTest"/>
+        <method signature="TC021_VerifyTCCollectionSummaryTest.verify_TCCollectionSummaryPageExists()[pri:0, instance:testCases.TC021_VerifyTCCollectionSummaryTest@1021f6c9]" name="verify_TCCollectionSummaryPageExists" class="testCases.TC021_VerifyTCCollectionSummaryTest"/>
+        <method signature="TC022_VerifyDCBReportTest.verify_DCBULBWisePageExists()[pri:0, instance:testCases.TC022_VerifyDCBReportTest@7516e4e5]" name="verify_DCBULBWisePageExists" class="testCases.TC022_VerifyDCBReportTest"/>
+        <method signature="TC023_VerifySAFReportTest.verify_SAFReportPageExists()[pri:0, instance:testCases.TC023_VerifySAFReportTest@488eb7f2]" name="verify_SAFReportPageExists" class="testCases.TC023_VerifySAFReportTest"/>
+        <method signature="TC024_VerifyZoneAndWardWiseCollectionReportTest.verify_WardWiseCollectionReportPageExists()[pri:0, instance:testCases.TC024_VerifyZoneAndWardWiseCollectionReportTest@5e81e5ac]" name="verify_WardWiseCollectionReportPageExists" class="testCases.TC024_VerifyZoneAndWardWiseCollectionReportTest"/>
+        <method signature="TC025_VerifyPaymentModeWiseCollectionTest.verify_PaymentModeWiseCollectionPageExists()[pri:0, instance:testCases.TC025_VerifyPaymentModeWiseCollectionTest@4189d70b]" name="verify_PaymentModeWiseCollectionPageExists" class="testCases.TC025_VerifyPaymentModeWiseCollectionTest"/>
+        <method signature="TC026_VerifyULBReportTest.verify_AllModuleReportPageExists()[pri:0, instance:testCases.TC026_VerifyULBReportTest@3fa2213]" name="verify_AllModuleReportPageExists" class="testCases.TC026_VerifyULBReportTest"/>
+        <method signature="TC027_VerifyTransactionDeactivateReportTest.verify_TransactionDeactivateReportPageExists()[pri:0, instance:testCases.TC027_VerifyTransactionDeactivateReportTest@3e7634b9]" name="verify_TransactionDeactivateReportPageExists" class="testCases.TC027_VerifyTransactionDeactivateReportTest"/>
+        <method signature="TC028_VerifyAllModuleTCSummaryTest.verify_AllModuleOperatorWiseCollectionPageExists()[pri:0, instance:testCases.TC028_VerifyAllModuleTCSummaryTest@6f0b0a5e]" name="verify_AllModuleOperatorWiseCollectionPageExists" class="testCases.TC028_VerifyAllModuleTCSummaryTest"/>
+        <method signature="TC029_VerifyPrintAllPaymentReceiptTest.verify_PrintAllPaymentReceiptPageExists()[pri:0, instance:testCases.TC029_VerifyPrintAllPaymentReceiptTest@6035b93b]" name="verify_PrintAllPaymentReceiptPageExists" class="testCases.TC029_VerifyPrintAllPaymentReceiptTest"/>
+        <method signature="TC030_VerifyPropertyWiseDCBTest.verify_DCBReportPageExists()[pri:0, instance:testCases.TC030_VerifyPropertyWiseDCBTest@320de594]" name="verify_DCBReportPageExists" class="testCases.TC030_VerifyPropertyWiseDCBTest"/>
+        <method signature="TC031_VerifyPrintAllDemandReceiptTest.verify_PrintAllDemandReceiptPageExists()[pri:0, instance:testCases.TC031_VerifyPrintAllDemandReceiptTest@3dd1dc90]" name="verify_PrintAllDemandReceiptPageExists" class="testCases.TC031_VerifyPrintAllDemandReceiptTest"/>
+        <method signature="TC032_VerifyReassessmentDiffTest.verify_ReassessmentDiffReportPageExists()[pri:0, instance:testCases.TC032_VerifyReassessmentDiffTest@abf688e]" name="verify_ReassessmentDiffReportPageExists" class="testCases.TC032_VerifyReassessmentDiffTest"/>
+        <method signature="TC033_VerifyChequeBouncedCollectionReportTest.verify_ChequeBouncedCollectionReportPageExists()[pri:0, instance:testCases.TC033_VerifyChequeBouncedCollectionReportTest@478ee483]" name="verify_ChequeBouncedCollectionReportPageExists" class="testCases.TC033_VerifyChequeBouncedCollectionReportTest"/>
+        <method signature="TC034_VerifyTaxCollectionReportTest.verify_TaxCollectionReportPageExists()[pri:0, instance:testCases.TC034_VerifyTaxCollectionReportTest@1a7288a3]" name="verify_TaxCollectionReportPageExists" class="testCases.TC034_VerifyTaxCollectionReportTest"/>
+        <method signature="TC035_VerifyApptiListTest.verify_ApptiFormListPageExists()[pri:0, instance:testCases.TC035_VerifyApptiListTest@2974f221]" name="verify_ApptiFormListPageExists" class="testCases.TC035_VerifyApptiListTest"/>
+        <method signature="TC036_VerifyAppttiPendingReportTest.verify_AppttiPendingReportPageExists()[pri:0, instance:testCases.TC036_VerifyAppttiPendingReportTest@58fe0499]" name="verify_AppttiPendingReportPageExists" class="testCases.TC036_VerifyAppttiPendingReportTest"/>
+        <method signature="TC037_VerifyApptiRejectListTest.verify_ApptiRejectListPageExists()[pri:0, instance:testCases.TC037_VerifyApptiRejectListTest@686449f9]" name="verify_ApptiRejectListPageExists" class="testCases.TC037_VerifyApptiRejectListTest"/>
+        <method signature="TC038_VerifyTCVisitReportTest.verify_TCVisitReportPageExists()[pri:0, instance:testCases.TC038_VerifyTCVisitReportTest@665df3c6]" name="verify_TCVisitReportPageExists" class="testCases.TC038_VerifyTCVisitReportTest"/>
+        <method signature="TC039_VerifyTCVisitSummaryTest.verify_TCVisitSummaryPageExists()[pri:0, instance:testCases.TC039_VerifyTCVisitSummaryTest@68b6f0d6]" name="verify_TCVisitSummaryPageExists" class="testCases.TC039_VerifyTCVisitSummaryTest"/>
+        <method signature="TC040_VerifyPropertyWiseTCVisitTest.verify_PropertyWiseTCVisitPageExists()[pri:0, instance:testCases.TC040_VerifyPropertyWiseTCVisitTest@4044fb95]" name="verify_PropertyWiseTCVisitPageExists" class="testCases.TC040_VerifyPropertyWiseTCVisitTest"/>
+        <method signature="TC041_VerifyTLVisitReportTest.verify_TLVisitReportPageExists()[pri:0, instance:testCases.TC041_VerifyTLVisitReportTest@aa549e5]" name="verify_TLVisitReportPageExists" class="testCases.TC041_VerifyTLVisitReportTest"/>
+        <method signature="TC042_VerifyAllUpdationReportTest.verify_AllUpdationReportPageExists()[pri:0, instance:testCases.TC042_VerifyAllUpdationReportTest@36f48b4]" name="verify_AllUpdationReportPageExists" class="testCases.TC042_VerifyAllUpdationReportTest"/>
+        <method signature="TC043_VerifySurveyReportTest.verify_SurveyReportPageExists()[pri:0, instance:testCases.TC043_VerifySurveyReportTest@5c00384f]" name="verify_SurveyReportPageExists" class="testCases.TC043_VerifySurveyReportTest"/>
+        <method signature="TC044_VerifySurveySummaryReportTest.verify_SurveySummaryReportPageExists()[pri:0, instance:testCases.TC044_VerifySurveySummaryReportTest@3b7ff809]" name="verify_SurveySummaryReportPageExists" class="testCases.TC044_VerifySurveySummaryReportTest"/>
+        <method signature="TC045_VerifySurveyTeamSummaryTest.verify_SurveyTeamSummaryPageExists()[pri:0, instance:testCases.TC045_VerifySurveyTeamSummaryTest@1bb564e2]" name="verify_SurveyTeamSummaryPageExists" class="testCases.TC045_VerifySurveyTeamSummaryTest"/>
+        <method signature="TC046_VerifySurveyAssessedListTest.verify_SurveyAssessedListPageExists()[pri:0, instance:testCases.TC046_VerifySurveyAssessedListTest@62e6b5c8]" name="verify_SurveyAssessedListPageExists" class="testCases.TC046_VerifySurveyAssessedListTest"/>
+        <method signature="TC047_VerifySurveyAssessedReportTest.verify_SurveyAssessedReportPageExists()[pri:0, instance:testCases.TC047_VerifySurveyAssessedReportTest@3f792b9b]" name="verify_SurveyAssessedReportPageExists" class="testCases.TC047_VerifySurveyAssessedReportTest"/>
+        <method signature="TC048_VerifyWardWiseSurveyReportTest.verify_WardWiseSurveyReportPageExists()[pri:0, instance:testCases.TC048_VerifyWardWiseSurveyReportTest@7b8233cd]" name="verify_WardWiseSurveyReportPageExists" class="testCases.TC048_VerifyWardWiseSurveyReportTest"/>
+        <method signature="TC049_VerifySurveyPendingReportTest.verify_SurveyPendingReportPageExists()[pri:0, instance:testCases.TC049_VerifySurveyPendingReportTest@4b20ca2b]" name="verify_SurveyPendingReportPageExists" class="testCases.TC049_VerifySurveyPendingReportTest"/>
+        <method signature="TC050_VerifySurveyLevelSummaryReportTest.verify_SurveyLevelSummaryReportPageExists()[pri:0, instance:testCases.TC050_VerifySurveyLevelSummaryReportTest@1cbf6e72]" name="verify_SurveyLevelSummaryReportPageExists" class="testCases.TC050_VerifySurveyLevelSummaryReportTest"/>
+        <method signature="TC051_VerifyUserWiseForwardSummaryTest.verify_UserWiseForwardSummaryPageExists()[pri:0, instance:testCases.TC051_VerifyUserWiseForwardSummaryTest@6aecbb8d]" name="verify_UserWiseForwardSummaryPageExists" class="testCases.TC051_VerifyUserWiseForwardSummaryTest"/>
+        <method signature="TC052_VerifyUserWiseSurveyEditReportTest.verify_UserWiseSurveyEditReportPageExists()[pri:0, instance:testCases.TC052_VerifyUserWiseSurveyEditReportTest@1af146]" name="verify_UserWiseSurveyEditReportPageExists" class="testCases.TC052_VerifyUserWiseSurveyEditReportTest"/>
+        <method signature="TC053_VerifySurveyModificationReportTest.verify_SurveyModificationReportPageExists()[pri:0, instance:testCases.TC053_VerifySurveyModificationReportTest@4da602fc]" name="verify_SurveyModificationReportPageExists" class="testCases.TC053_VerifySurveyModificationReportTest"/>
+        <method signature="TC054_VerifySurveyGeotaggingReportTest.verify_SurveyGeotaggingReportPageExists()[pri:0, instance:testCases.TC054_VerifySurveyGeotaggingReportTest@2a8d39c4]" name="verify_SurveyGeotaggingReportPageExists" class="testCases.TC054_VerifySurveyGeotaggingReportTest"/>
+        <method signature="TC055_VerifyExPartySurveyNoticeTest.verify_ExPartySurveyNoticePageExists()[pri:0, instance:testCases.TC055_VerifyExPartySurveyNoticeTest@25b2cfcb]" name="verify_ExPartySurveyNoticePageExists" class="testCases.TC055_VerifyExPartySurveyNoticeTest"/>
+        <method signature="TC056_VerifySurveyNoticeListTest.verify_SurveyNoticeListPageExists()[pri:0, instance:testCases.TC056_VerifySurveyNoticeListTest@72758afa]" name="verify_SurveyNoticeListPageExists" class="testCases.TC056_VerifySurveyNoticeListTest"/>
+        <method signature="TC057_VerifyBulkSurveyNoticePrintTest.verify_BulkSurveyNoticePageExists()[pri:0, instance:testCases.TC057_VerifyBulkSurveyNoticePrintTest@fb9c7aa]" name="verify_BulkSurveyNoticePageExists" class="testCases.TC057_VerifyBulkSurveyNoticePrintTest"/>
+        <method signature="TC058_VeirfySurveyNoticeReceviedListTest.verify_SurveyNoticeReceviedListPageExists()[pri:0, instance:testCases.TC058_VeirfySurveyNoticeReceviedListTest@4c398c80]" name="verify_SurveyNoticeReceviedListPageExists" class="testCases.TC058_VeirfySurveyNoticeReceviedListTest"/>
+        <method signature="TC059_VerifySurveyNoticeReceivedReportTest.verify_SurveyNoticeReceivedReportPageExists()[pri:0, instance:testCases.TC059_VerifySurveyNoticeReceivedReportTest@7fc6de5b]" name="verify_SurveyNoticeReceivedReportPageExists" class="testCases.TC059_VerifySurveyNoticeReceivedReportTest"/>
+        <method signature="TC060_VerifySurveyNoticeDistributedReportTest.verify_SurveyNoticeDistributedReportPageExists()[pri:0, instance:testCases.TC060_VerifySurveyNoticeDistributedReportTest@21baa903]" name="verify_SurveyNoticeDistributedReportPageExists" class="testCases.TC060_VerifySurveyNoticeDistributedReportTest"/>
+        <method signature="TC061_VerifySurveyDemandReportTest.verify_SurveyDemandReportPageExists()[pri:0, instance:testCases.TC061_VerifySurveyDemandReportTest@607fbe09]" name="verify_SurveyDemandReportPageExists" class="testCases.TC061_VerifySurveyDemandReportTest"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="TC001_LoginTest.verify_login()[pri:0, instance:testCases.TC001_LoginTest@3eeb318f]" name="verify_login" class="testCases.TC001_LoginTest"/>
+        <method signature="TC062_VerifyUDTaxSetUpMenuTest.verify_UDTaxSetUpMenuExists()[pri:0, instance:testCases.TC062_VerifyUDTaxSetUpMenuTest@60a2630a]" name="verify_UDTaxSetUpMenuExists" class="testCases.TC062_VerifyUDTaxSetUpMenuTest"/>
+        <method signature="TC063_VerifyAssessmentMenuTest.verify_AssessmentMenuExists()[pri:0, instance:testCases.TC063_VerifyAssessmentMenuTest@29df4d43]" name="verify_AssessmentMenuExists" class="testCases.TC063_VerifyAssessmentMenuTest"/>
+        <method signature="TC064_VerifyUDTaxMenuTest.verify_UDTaxMenuExists()[pri:0, instance:testCases.TC064_VerifyUDTaxMenuTest@5dd91bca]" name="verify_UDTaxMenuExists" class="testCases.TC064_VerifyUDTaxMenuTest"/>
+        <method signature="TC065_VerifyUDTaxReportMenuTest.verify_UDTaxReportMenuExists()[pri:0, instance:testCases.TC065_VerifyUDTaxReportMenuTest@40cb698e]" name="verify_UDTaxReportMenuExists" class="testCases.TC065_VerifyUDTaxReportMenuTest"/>
+        <method signature="TC066_VerifyPropertySurveyMenuTest.verify_PropertySurveyMenuExists()[pri:0, instance:testCases.TC066_VerifyPropertySurveyMenuTest@3382f8ae]" name="verify_PropertySurveyMenuExists" class="testCases.TC066_VerifyPropertySurveyMenuTest"/>
+        <method signature="TC067_VerifyUDTaxMailMenuTest.verify_UDTaxMailMenuExists()[pri:0, instance:testCases.TC067_VerifyUDTaxMailMenuTest@60641ec8]" name="verify_UDTaxMailMenuExists" class="testCases.TC067_VerifyUDTaxMailMenuTest"/>
+        <method signature="TC068_VerifyAccountsMenuTest.verify_AccountsMenuExists()[pri:0, instance:testCases.TC068_VerifyAccountsMenuTest@75f65e45]" name="verify_AccountsMenuExists" class="testCases.TC068_VerifyAccountsMenuTest"/>
+        <method signature="TC069_VerifySurveyMailMenuTest.verify_SurveyMailMenuExists()[pri:0, instance:testCases.TC069_VerifySurveyMailMenuTest@6eeade6c]" name="verify_SurveyMailMenuExists" class="testCases.TC069_VerifySurveyMailMenuTest"/>
+      </group> <!-- Smoke -->
+      <group name="Datadriven">
+        <method signature="TC002_LoginDDTTest.verify_loginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_LoginDDTTest@6da00fb9]" name="verify_loginDDT" class="testCases.TC002_LoginDDTTest"/>
+      </group> <!-- Datadriven -->
+    </groups>
+    <test started-at="2026-05-12T11:33:42 IST" name="Test" finished-at="2026-05-12T12:04:27 IST" duration-ms="1845660">
+      <class name="testCases.TC001_LoginTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_LoginTest@3eeb318f]" started-at="2026-05-12T11:33:42 IST" name="setup" finished-at="2026-05-12T11:33:50 IST" duration-ms="7861" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_login()[pri:0, instance:testCases.TC001_LoginTest@3eeb318f]" started-at="2026-05-12T11:33:50 IST" name="verify_login" finished-at="2026-05-12T11:33:53 IST" duration-ms="2989" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_LoginTest@3eeb318f]" started-at="2026-05-12T11:33:53 IST" name="tearDown" finished-at="2026-05-12T11:33:54 IST" duration-ms="600" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC001_LoginTest -->
+      <class name="testCases.TC054_VerifySurveyGeotaggingReportTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC054_VerifySurveyGeotaggingReportTest@2a8d39c4]" started-at="2026-05-12T12:00:03 IST" name="setup" finished-at="2026-05-12T12:00:07 IST" duration-ms="3306" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_SurveyGeotaggingReportPageExists()[pri:0, instance:testCases.TC054_VerifySurveyGeotaggingReportTest@2a8d39c4]" started-at="2026-05-12T12:00:07 IST" name="verify_SurveyGeotaggingReportPageExists" finished-at="2026-05-12T12:00:25 IST" duration-ms="18109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_SurveyGeotaggingReportPageExists -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC054_VerifySurveyGeotaggingReportTest@2a8d39c4]" started-at="2026-05-12T12:00:25 IST" name="tearDown" finished-at="2026-05-12T12:00:25 IST" duration-ms="392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC054_VerifySurveyGeotaggingReportTest -->
+      <class name="testCases.TC011_LegacyEntryTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC011_LegacyEntryTest@3f0846c6]" started-at="2026-05-12T11:43:03 IST" name="setup" finished-at="2026-05-12T11:43:07 IST" duration-ms="3592" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_LegacyEntryPage()[pri:0, instance:testCases.TC011_LegacyEntryTest@3f0846c6]" started-at="2026-05-12T11:43:07 IST" name="verify_LegacyEntryPage" finished-at="2026-05-12T11:43:26 IST" duration-ms="19688" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_LegacyEntryPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC011_LegacyEntryTest@3f0846c6]" started-at="2026-05-12T11:43:26 IST" name="tearDown" finished-at="2026-05-12T11:43:27 IST" duration-ms="471" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC011_LegacyEntryTest -->
+      <class name="testCases.TC043_VerifySurveyReportTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC043_VerifySurveyReportTest@5c00384f]" started-at="2026-05-12T11:54:42 IST" name="setup" finished-at="2026-05-12T11:54:45 IST" duration-ms="3413" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_SurveyReportPageExists()[pri:0, instance:testCases.TC043_VerifySurveyReportTest@5c00384f]" started-at="2026-05-12T11:54:45 IST" name="verify_SurveyReportPageExists" finished-at="2026-05-12T11:55:03 IST" duration-ms="18057" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_SurveyReportPageExists -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC043_VerifySurveyReportTest@5c00384f]" started-at="2026-05-12T11:55:03 IST" name="tearDown" finished-at="2026-05-12T11:55:04 IST" duration-ms="363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC043_VerifySurveyReportTest -->
+      <class name="testCases.TC037_VerifyApptiRejectListTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC037_VerifyApptiRejectListTest@686449f9]" started-at="2026-05-12T11:52:13 IST" name="setup" finished-at="2026-05-12T11:52:16 IST" duration-ms="3645" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_ApptiRejectListPageExists()[pri:0, instance:testCases.TC037_VerifyApptiRejectListTest@686449f9]" started-at="2026-05-12T11:52:16 IST" name="verify_ApptiRejectListPageExists" finished-at="2026-05-12T11:52:33 IST" duration-ms="17033" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_ApptiRejectListPageExists -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC037_VerifyApptiRejectListTest@686449f9]" started-at="2026-05-12T11:52:33 IST" name="tearDown" finished-at="2026-05-12T11:52:34 IST" duration-ms="367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC037_VerifyApptiRejectListTest -->
+      <class name="testCases.TC004_VerifyActTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC004_VerifyActTest@20f12539]" started-at="2026-05-12T11:38:44 IST" name="setup" finished-at="2026-05-12T11:39:45 IST" duration-ms="61315" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_ActPageIsExists()[pri:0, instance:testCases.TC004_VerifyActTest@20f12539]" started-at="2026-05-12T11:39:45 IST" name="verify_ActPageIsExists" finished-at="2026-05-12T11:39:55 IST" duration-ms="10070" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.fail(Assert.java:116)
+at testCases.TC004_VerifyActTest.verify_ActPageIsExists(TC004_VerifyActTest.java:37)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_ActPageIsExists -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC004_VerifyActTest@20f12539]" started-at="2026-05-12T11:39:55 IST" name="tearDown" finished-at="2026-05-12T11:39:55 IST" duration-ms="337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC004_VerifyActTest -->
+      <class name="testCases.TC048_VerifyWardWiseSurveyReportTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC048_VerifyWardWiseSurveyReportTest@7b8233cd]" started-at="2026-05-12T11:56:49 IST" name="setup" finished-at="2026-05-12T11:56:53 IST" duration-ms="3312" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_WardWiseSurveyReportPageExists()[pri:0, instance:testCases.TC048_VerifyWardWiseSurveyReportTest@7b8233cd]" started-at="2026-05-12T11:56:53 IST" name="verify_WardWiseSurveyReportPageExists" finished-at="2026-05-12T11:57:21 IST" duration-ms="28328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_WardWiseSurveyReportPageExists -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC048_VerifyWardWiseSurveyReportTest@7b8233cd]" started-at="2026-05-12T11:57:21 IST" name="tearDown" finished-at="2026-05-12T11:57:21 IST" duration-ms="384" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC048_VerifyWardWiseSurveyReportTest -->
+      <class name="testCases.TC006_VerifyContactTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC006_VerifyContactTest@18025ced]" started-at="2026-05-12T11:41:07 IST" name="setup" finished-at="2026-05-12T11:41:38 IST" duration-ms="30735" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_ContactPageIsExists()[pri:0, instance:testCases.TC006_VerifyContactTest@18025ced]" started-at="2026-05-12T11:41:38 IST" name="verify_ContactPageIsExists" finished-at="2026-05-12T11:41:48 IST" duration-ms="10064" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.fail(Assert.java:116)
+at testCases.TC006_VerifyContactTest.verify_ContactPageIsExists(TC006_VerifyContactTest.java:36)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_ContactPageIsExists -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC006_VerifyContactTest@18025ced]" started-at="2026-05-12T11:41:48 IST" name="tearDown" finished-at="2026-05-12T11:41:49 IST" duration-ms="263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC006_VerifyContactTest -->
+      <class name="testCases.TC027_VerifyTransactionDeactivateReportTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC027_VerifyTransactionDeactivateReportTest@3e7634b9]" started-at="2026-05-12T11:48:15 IST" name="setup" finished-at="2026-05-12T11:48:18 IST" duration-ms="3386" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_TransactionDeactivateReportPageExists()[pri:0, instance:testCases.TC027_VerifyTransactionDeactivateReportTest@3e7634b9]" started-at="2026-05-12T11:48:18 IST" name="verify_TransactionDeactivateReportPageExists" finished-at="2026-05-12T11:48:41 IST" duration-ms="22926" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_TransactionDeactivateReportPageExists -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC027_VerifyTransactionDeactivateReportTest@3e7634b9]" started-at="2026-05-12T11:48:41 IST" name="tearDown" finished-at="2026-05-12T11:48:42 IST" duration-ms="365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC027_VerifyTransactionDeactivateReportTest -->
+      <class name="testCases.TC051_VerifyUserWiseForwardSummaryTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC051_VerifyUserWiseForwardSummaryTest@6aecbb8d]" started-at="2026-05-12T11:58:28 IST" name="setup" finished-at="2026-05-12T11:58:32 IST" duration-ms="3681" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_UserWiseForwardSummaryPageExists()[pri:0, instance:testCases.TC051_VerifyUserWiseForwardSummaryTest@6aecbb8d]" started-at="2026-05-12T11:58:32 IST" name="verify_UserWiseForwardSummaryPageExists" finished-at="2026-05-12T11:59:00 IST" duration-ms="28067" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_UserWiseForwardSummaryPageExists -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC051_VerifyUserWiseForwardSummaryTest@6aecbb8d]" started-at="2026-05-12T11:59:00 IST" name="tearDown" finished-at="2026-05-12T11:59:00 IST" duration-ms="399" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC051_VerifyUserWiseForwardSummaryTest -->
+      <class name="testCases.TC045_VerifySurveyTeamSummaryTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC045_VerifySurveyTeamSummaryTest@1bb564e2]" started-at="2026-05-12T11:55:35 IST" name="setup" finished-at="2026-05-12T11:55:39 IST" duration-ms="4221" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_SurveyTeamSummaryPageExists()[pri:0, instance:testCases.TC045_VerifySurveyTeamSummaryTest@1bb564e2]" started-at="2026-05-12T11:55:39 IST" name="verify_SurveyTeamSummaryPageExists" finished-at="2026-05-12T11:56:07 IST" duration-ms="28087" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_SurveyTeamSummaryPageExists -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC045_VerifySurveyTeamSummaryTest@1bb564e2]" started-at="2026-05-12T11:56:07 IST" name="tearDown" finished-at="2026-05-12T11:56:08 IST" duration-ms="367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC045_VerifySurveyTeamSummaryTest -->
+      <class name="testCases.TC030_VerifyPropertyWiseDCBTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC030_VerifyPropertyWiseDCBTest@320de594]" started-at="2026-05-12T11:49:32 IST" name="setup" finished-at="2026-05-12T11:49:36 IST" duration-ms="4030" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_DCBReportPageExists()[pri:0, instance:testCases.TC030_VerifyPropertyWiseDCBTest@320de594]" started-at="2026-05-12T11:49:36 IST" name="verify_DCBReportPageExists" finished-at="2026-05-12T11:49:54 IST" duration-ms="18646" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_DCBReportPageExists -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC030_VerifyPropertyWiseDCBTest@320de594]" started-at="2026-05-12T11:49:54 IST" name="tearDown" finished-at="2026-05-12T11:49:55 IST" duration-ms="505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC030_VerifyPropertyWiseDCBTest -->
+      <class name="testCases.TC019_VerifyHTaxLastPaymentUpdateTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC019_VerifyHTaxLastPaymentUpdateTest@5a7005d]" started-at="2026-05-12T11:45:28 IST" name="setup" finished-at="2026-05-12T11:45:32 IST" duration-ms="3791" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_PropertyListPageExists()[pri:0, instance:testCases.TC019_VerifyHTaxLastPaymentUpdateTest@5a7005d]" started-at="2026-05-12T11:45:32 IST" name="verify_PropertyListPageExists" finished-at="2026-05-12T11:45:46 IST" duration-ms="14038" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_PropertyListPageExists -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC019_VerifyHTaxLastPaymentUpdateTest@5a7005d]" started-at="2026-05-12T11:45:46 IST" name="tearDown" finished-at="2026-05-12T11:45:47 IST" duration-ms="943" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC019_VerifyHTaxLastPaymentUpdateTest -->
+      <class name="testCases.TC046_VerifySurveyAssessedListTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC046_VerifySurveyAssessedListTest@62e6b5c8]" started-at="2026-05-12T11:56:08 IST" name="setup" finished-at="2026-05-12T11:56:11 IST" duration-ms="3352" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_SurveyAssessedListPageExists()[pri:0, instance:testCases.TC046_VerifySurveyAssessedListTest@62e6b5c8]" started-at="2026-05-12T11:56:11 IST" name="verify_SurveyAssessedListPageExists" finished-at="2026-05-12T11:56:28 IST" duration-ms="16995" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_SurveyAssessedListPageExists -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC046_VerifySurveyAssessedListTest@62e6b5c8]" started-at="2026-05-12T11:56:28 IST" name="tearDown" finished-at="2026-05-12T11:56:28 IST" duration-ms="391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC046_VerifySurveyAssessedListTest -->
+      <class name="testCases.TC002_LoginDDTTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_LoginDDTTest@6da00fb9]" started-at="2026-05-12T11:33:54 IST" name="setup" finished-at="2026-05-12T11:33:57 IST" duration-ms="3545" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_loginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_LoginDDTTest@6da00fb9]" started-at="2026-05-12T11:34:00 IST" name="verify_loginDDT" data-provider="LoginData" finished-at="2026-05-12T11:34:03 IST" duration-ms="3219" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[super_admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_loginDDT -->
+        <test-method signature="verify_loginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_LoginDDTTest@6da00fb9]" started-at="2026-05-12T11:34:03 IST" name="verify_loginDDT" data-provider="LoginData" finished-at="2026-05-12T11:34:15 IST" duration-ms="12114" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_loginDDT -->
+        <test-method signature="verify_loginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_LoginDDTTest@6da00fb9]" started-at="2026-05-12T11:34:15 IST" name="verify_loginDDT" data-provider="LoginData" finished-at="2026-05-12T11:34:26 IST" duration-ms="11043" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_loginDDT -->
+        <test-method signature="verify_loginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_LoginDDTTest@6da00fb9]" started-at="2026-05-12T11:34:26 IST" name="verify_loginDDT" data-provider="LoginData" finished-at="2026-05-12T11:34:37 IST" duration-ms="11138" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_loginDDT -->
+        <test-method signature="verify_loginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_LoginDDTTest@6da00fb9]" started-at="2026-05-12T11:34:37 IST" name="verify_loginDDT" data-provider="LoginData" finished-at="2026-05-12T11:34:49 IST" duration-ms="11559" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[super_admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_loginDDT -->
+        <test-method signature="verify_loginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_LoginDDTTest@6da00fb9]" started-at="2026-05-12T11:34:49 IST" name="verify_loginDDT" data-provider="LoginData" finished-at="2026-05-12T11:35:01 IST" duration-ms="11803" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_loginDDT -->
+        <test-method signature="verify_loginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_LoginDDTTest@6da00fb9]" started-at="2026-05-12T11:35:01 IST" name="verify_loginDDT" data-provider="LoginData" finished-at="2026-05-12T11:35:12 IST" duration-ms="11122" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_loginDDT -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC002_LoginDDTTest@6da00fb9]" started-at="2026-05-12T11:35:12 IST" name="tearDown" finished-at="2026-05-12T11:35:12 IST" duration-ms="502" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC002_LoginDDTTest -->
+      <class name="testCases.TC053_VerifySurveyModificationReportTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC053_VerifySurveyModificationReportTest@4da602fc]" started-at="2026-05-12T11:59:32 IST" name="setup" finished-at="2026-05-12T11:59:35 IST" duration-ms="3436" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_SurveyModificationReportPageExists()[pri:0, instance:testCases.TC053_VerifySurveyModificationReportTest@4da602fc]" started-at="2026-05-12T11:59:35 IST" name="verify_SurveyModificationReportPageExists" finished-at="2026-05-12T12:00:03 IST" duration-ms="27689" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_SurveyModificationReportPageExists -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC053_VerifySurveyModificationReportTest@4da602fc]" started-at="2026-05-12T12:00:03 IST" name="tearDown" finished-at="2026-05-12T12:00:03 IST" duration-ms="371" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC053_VerifySurveyModificationReportTest -->
+      <class name="testCases.TC059_VerifySurveyNoticeReceivedReportTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC059_VerifySurveyNoticeReceivedReportTest@7fc6de5b]" started-at="2026-05-12T12:01:53 IST" name="setup" finished-at="2026-05-12T12:01:57 IST" duration-ms="3403" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_SurveyNoticeReceivedReportPageExists()[pri:0, instance:testCases.TC059_VerifySurveyNoticeReceivedReportTest@7fc6de5b]" started-at="2026-05-12T12:01:57 IST" name="verify_SurveyNoticeReceivedReportPageExists" finished-at="2026-05-12T12:02:15 IST" duration-ms="17952" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_SurveyNoticeReceivedReportPageExists -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC059_VerifySurveyNoticeReceivedReportTest@7fc6de5b]" started-at="2026-05-12T12:02:15 IST" name="tearDown" finished-at="2026-05-12T12:02:15 IST" duration-ms="396" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC059_VerifySurveyNoticeReceivedReportTest -->
+      <class name="testCases.TC029_VerifyPrintAllPaymentReceiptTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC029_VerifyPrintAllPaymentReceiptTest@6035b93b]" started-at="2026-05-12T11:49:12 IST" name="setup" finished-at="2026-05-12T11:49:17 IST" duration-ms="4736" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_PrintAllPaymentReceiptPageExists()[pri:0, instance:testCases.TC029_VerifyPrintAllPaymentReceiptTest@6035b93b]" started-at="2026-05-12T11:49:17 IST" name="verify_PrintAllPaymentReceiptPageExists" finished-at="2026-05-12T11:49:31 IST" duration-ms="14145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_PrintAllPaymentReceiptPageExists -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC029_VerifyPrintAllPaymentReceiptTest@6035b93b]" started-at="2026-05-12T11:49:31 IST" name="tearDown" finished-at="2026-05-12T11:49:32 IST" duration-ms="417" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC029_VerifyPrintAllPaymentReceiptTest -->
+      <class name="testCases.TC061_VerifySurveyDemandReportTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC061_VerifySurveyDemandReportTest@607fbe09]" started-at="2026-05-12T12:02:37 IST" name="setup" finished-at="2026-05-12T12:02:41 IST" duration-ms="3541" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_SurveyDemandReportPageExists()[pri:0, instance:testCases.TC061_VerifySurveyDemandReportTest@607fbe09]" started-at="2026-05-12T12:02:41 IST" name="verify_SurveyDemandReportPageExists" finished-at="2026-05-12T12:02:59 IST" duration-ms="18228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_SurveyDemandReportPageExists -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC061_VerifySurveyDemandReportTest@607fbe09]" started-at="2026-05-12T12:02:59 IST" name="tearDown" finished-at="2026-05-12T12:02:59 IST" duration-ms="392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC061_VerifySurveyDemandReportTest -->
+      <class name="testCases.TC016_VerifyUpdateOwnerDetailsTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC016_VerifyUpdateOwnerDetailsTest@45e37a7e]" started-at="2026-05-12T11:44:37 IST" name="setup" finished-at="2026-05-12T11:44:40 IST" duration-ms="3323" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_PropertyListPageExists()[pri:0, instance:testCases.TC016_VerifyUpdateOwnerDetailsTest@45e37a7e]" started-at="2026-05-12T11:44:40 IST" name="verify_PropertyListPageExists" finished-at="2026-05-12T11:44:54 IST" duration-ms="13537" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_PropertyListPageExists -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC016_VerifyUpdateOwnerDetailsTest@45e37a7e]" started-at="2026-05-12T11:44:54 IST" name="tearDown" finished-at="2026-05-12T11:44:54 IST" duration-ms="438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC016_VerifyUpdateOwnerDetailsTest -->
+      <class name="testCases.TC065_VerifyUDTaxReportMenuTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC065_VerifyUDTaxReportMenuTest@40cb698e]" started-at="2026-05-12T12:03:33 IST" name="setup" finished-at="2026-05-12T12:03:36 IST" duration-ms="3430" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_UDTaxReportMenuExists()[pri:0, instance:testCases.TC065_VerifyUDTaxReportMenuTest@40cb698e]" started-at="2026-05-12T12:03:36 IST" name="verify_UDTaxReportMenuExists" finished-at="2026-05-12T12:03:43 IST" duration-ms="7116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_UDTaxReportMenuExists -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC065_VerifyUDTaxReportMenuTest@40cb698e]" started-at="2026-05-12T12:03:43 IST" name="tearDown" finished-at="2026-05-12T12:03:44 IST" duration-ms="349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC065_VerifyUDTaxReportMenuTest -->
+      <class name="testCases.TC067_VerifyUDTaxMailMenuTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC067_VerifyUDTaxMailMenuTest@60641ec8]" started-at="2026-05-12T12:03:55 IST" name="setup" finished-at="2026-05-12T12:03:58 IST" duration-ms="3283" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_UDTaxMailMenuExists()[pri:0, instance:testCases.TC067_VerifyUDTaxMailMenuTest@60641ec8]" started-at="2026-05-12T12:03:58 IST" name="verify_UDTaxMailMenuExists" finished-at="2026-05-12T12:04:05 IST" duration-ms="7157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_UDTaxMailMenuExists -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC067_VerifyUDTaxMailMenuTest@60641ec8]" started-at="2026-05-12T12:04:05 IST" name="tearDown" finished-at="2026-05-12T12:04:05 IST" duration-ms="362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC067_VerifyUDTaxMailMenuTest -->
+      <class name="testCases.TC013_VerifyDocUploadTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC013_VerifyDocUploadTest@78fbff54]" started-at="2026-05-12T11:43:45 IST" name="setup" finished-at="2026-05-12T11:43:48 IST" duration-ms="3556" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_PropertyListPageExists()[pri:0, instance:testCases.TC013_VerifyDocUploadTest@78fbff54]" started-at="2026-05-12T11:43:48 IST" name="verify_PropertyListPageExists" finished-at="2026-05-12T11:44:01 IST" duration-ms="12936" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_PropertyListPageExists -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC013_VerifyDocUploadTest@78fbff54]" started-at="2026-05-12T11:44:01 IST" name="tearDown" finished-at="2026-05-12T11:44:02 IST" duration-ms="443" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC013_VerifyDocUploadTest -->
+      <class name="testCases.TC005_VerifyGalleryTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC005_VerifyGalleryTest@75b25825]" started-at="2026-05-12T11:39:55 IST" name="setup" finished-at="2026-05-12T11:40:57 IST" duration-ms="61498" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_GalleryPageIsExists()[pri:0, instance:testCases.TC005_VerifyGalleryTest@75b25825]" started-at="2026-05-12T11:40:57 IST" name="verify_GalleryPageIsExists" finished-at="2026-05-12T11:41:07 IST" duration-ms="10059" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.fail(Assert.java:116)
+at testCases.TC005_VerifyGalleryTest.verify_GalleryPageIsExists(TC005_VerifyGalleryTest.java:36)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_GalleryPageIsExists -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC005_VerifyGalleryTest@75b25825]" started-at="2026-05-12T11:41:07 IST" name="tearDown" finished-at="2026-05-12T11:41:07 IST" duration-ms="286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC005_VerifyGalleryTest -->
+      <class name="testCases.TC033_VerifyChequeBouncedCollectionReportTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC033_VerifyChequeBouncedCollectionReportTest@478ee483]" started-at="2026-05-12T11:50:41 IST" name="setup" finished-at="2026-05-12T11:50:46 IST" duration-ms="4192" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_ChequeBouncedCollectionReportPageExists()[pri:0, instance:testCases.TC033_VerifyChequeBouncedCollectionReportTest@478ee483]" started-at="2026-05-12T11:50:46 IST" name="verify_ChequeBouncedCollectionReportPageExists" finished-at="2026-05-12T11:51:03 IST" duration-ms="17686" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_ChequeBouncedCollectionReportPageExists -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC033_VerifyChequeBouncedCollectionReportTest@478ee483]" started-at="2026-05-12T11:51:03 IST" name="tearDown" finished-at="2026-05-12T11:51:04 IST" duration-ms="361" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC033_VerifyChequeBouncedCollectionReportTest -->
+      <class name="testCases.TC008_VerifyHouseTaxEntryTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC008_VerifyHouseTaxEntryTest@3a3e4aff]" started-at="2026-05-12T11:41:57 IST" name="setup" finished-at="2026-05-12T11:42:00 IST" duration-ms="3494" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_HouseTaxEntryPageIsExists()[pri:0, instance:testCases.TC008_VerifyHouseTaxEntryTest@3a3e4aff]" started-at="2026-05-12T11:42:00 IST" name="verify_HouseTaxEntryPageIsExists" finished-at="2026-05-12T11:42:12 IST" duration-ms="11869" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_HouseTaxEntryPageIsExists -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC008_VerifyHouseTaxEntryTest@3a3e4aff]" started-at="2026-05-12T11:42:12 IST" name="tearDown" finished-at="2026-05-12T11:42:14 IST" duration-ms="1937" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC008_VerifyHouseTaxEntryTest -->
+      <class name="testCases.TC009_HouseTaxEntryTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC009_HouseTaxEntryTest@5d2a4eed]" started-at="2026-05-12T11:42:14 IST" name="setup" finished-at="2026-05-12T11:42:18 IST" duration-ms="3704" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_HouseTaxEntryPage()[pri:0, instance:testCases.TC009_HouseTaxEntryTest@5d2a4eed]" started-at="2026-05-12T11:42:18 IST" name="verify_HouseTaxEntryPage" finished-at="2026-05-12T11:42:47 IST" duration-ms="29279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_HouseTaxEntryPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC009_HouseTaxEntryTest@5d2a4eed]" started-at="2026-05-12T11:42:47 IST" name="tearDown" finished-at="2026-05-12T11:42:47 IST" duration-ms="411" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC009_HouseTaxEntryTest -->
+      <class name="testCases.TC023_VerifySAFReportTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC023_VerifySAFReportTest@488eb7f2]" started-at="2026-05-12T11:46:54 IST" name="setup" finished-at="2026-05-12T11:46:58 IST" duration-ms="3450" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_SAFReportPageExists()[pri:0, instance:testCases.TC023_VerifySAFReportTest@488eb7f2]" started-at="2026-05-12T11:46:58 IST" name="verify_SAFReportPageExists" finished-at="2026-05-12T11:47:07 IST" duration-ms="9224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_SAFReportPageExists -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC023_VerifySAFReportTest@488eb7f2]" started-at="2026-05-12T11:47:07 IST" name="tearDown" finished-at="2026-05-12T11:47:07 IST" duration-ms="431" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC023_VerifySAFReportTest -->
+      <class name="testCases.TC057_VerifyBulkSurveyNoticePrintTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC057_VerifyBulkSurveyNoticePrintTest@fb9c7aa]" started-at="2026-05-12T12:01:08 IST" name="setup" finished-at="2026-05-12T12:01:12 IST" duration-ms="3418" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_BulkSurveyNoticePageExists()[pri:0, instance:testCases.TC057_VerifyBulkSurveyNoticePrintTest@fb9c7aa]" started-at="2026-05-12T12:01:12 IST" name="verify_BulkSurveyNoticePageExists" finished-at="2026-05-12T12:01:30 IST" duration-ms="18019" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_BulkSurveyNoticePageExists -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC057_VerifyBulkSurveyNoticePrintTest@fb9c7aa]" started-at="2026-05-12T12:01:30 IST" name="tearDown" finished-at="2026-05-12T12:01:30 IST" duration-ms="388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC057_VerifyBulkSurveyNoticePrintTest -->
+      <class name="testCases.TC020_VerifyCounterReportTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC020_VerifyCounterReportTest@5bc9ba1d]" started-at="2026-05-12T11:45:47 IST" name="setup" finished-at="2026-05-12T11:45:51 IST" duration-ms="4156" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_CounterReportPageExists()[pri:0, instance:testCases.TC020_VerifyCounterReportTest@5bc9ba1d]" started-at="2026-05-12T11:45:51 IST" name="verify_CounterReportPageExists" finished-at="2026-05-12T11:46:14 IST" duration-ms="22660" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_CounterReportPageExists -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC020_VerifyCounterReportTest@5bc9ba1d]" started-at="2026-05-12T11:46:14 IST" name="tearDown" finished-at="2026-05-12T11:46:14 IST" duration-ms="360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC020_VerifyCounterReportTest -->
+      <class name="testCases.TC062_VerifyUDTaxSetUpMenuTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC062_VerifyUDTaxSetUpMenuTest@60a2630a]" started-at="2026-05-12T12:02:59 IST" name="setup" finished-at="2026-05-12T12:03:03 IST" duration-ms="3555" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_UDTaxSetUpMenuExists()[pri:0, instance:testCases.TC062_VerifyUDTaxSetUpMenuTest@60a2630a]" started-at="2026-05-12T12:03:03 IST" name="verify_UDTaxSetUpMenuExists" finished-at="2026-05-12T12:03:10 IST" duration-ms="7147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_UDTaxSetUpMenuExists -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC062_VerifyUDTaxSetUpMenuTest@60a2630a]" started-at="2026-05-12T12:03:10 IST" name="tearDown" finished-at="2026-05-12T12:03:11 IST" duration-ms="426" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC062_VerifyUDTaxSetUpMenuTest -->
+      <class name="testCases.TC058_VeirfySurveyNoticeReceviedListTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC058_VeirfySurveyNoticeReceviedListTest@4c398c80]" started-at="2026-05-12T12:01:30 IST" name="setup" finished-at="2026-05-12T12:01:36 IST" duration-ms="5310" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_SurveyNoticeReceviedListPageExists()[pri:0, instance:testCases.TC058_VeirfySurveyNoticeReceviedListTest@4c398c80]" started-at="2026-05-12T12:01:36 IST" name="verify_SurveyNoticeReceviedListPageExists" finished-at="2026-05-12T12:01:53 IST" duration-ms="17541" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_SurveyNoticeReceviedListPageExists -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC058_VeirfySurveyNoticeReceviedListTest@4c398c80]" started-at="2026-05-12T12:01:53 IST" name="tearDown" finished-at="2026-05-12T12:01:53 IST" duration-ms="399" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC058_VeirfySurveyNoticeReceviedListTest -->
+      <class name="testCases.TC066_VerifyPropertySurveyMenuTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC066_VerifyPropertySurveyMenuTest@3382f8ae]" started-at="2026-05-12T12:03:44 IST" name="setup" finished-at="2026-05-12T12:03:47 IST" duration-ms="3462" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_PropertySurveyMenuExists()[pri:0, instance:testCases.TC066_VerifyPropertySurveyMenuTest@3382f8ae]" started-at="2026-05-12T12:03:47 IST" name="verify_PropertySurveyMenuExists" finished-at="2026-05-12T12:03:54 IST" duration-ms="7081" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_PropertySurveyMenuExists -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC066_VerifyPropertySurveyMenuTest@3382f8ae]" started-at="2026-05-12T12:03:54 IST" name="tearDown" finished-at="2026-05-12T12:03:55 IST" duration-ms="487" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC066_VerifyPropertySurveyMenuTest -->
+      <class name="testCases.TC049_VerifySurveyPendingReportTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC049_VerifySurveyPendingReportTest@4b20ca2b]" started-at="2026-05-12T11:57:21 IST" name="setup" finished-at="2026-05-12T11:57:25 IST" duration-ms="3384" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_SurveyPendingReportPageExists()[pri:0, instance:testCases.TC049_VerifySurveyPendingReportTest@4b20ca2b]" started-at="2026-05-12T11:57:25 IST" name="verify_SurveyPendingReportPageExists" finished-at="2026-05-12T11:57:55 IST" duration-ms="29873" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_SurveyPendingReportPageExists -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC049_VerifySurveyPendingReportTest@4b20ca2b]" started-at="2026-05-12T11:57:55 IST" name="tearDown" finished-at="2026-05-12T11:57:55 IST" duration-ms="525" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC049_VerifySurveyPendingReportTest -->
+      <class name="testCases.TC026_VerifyULBReportTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC026_VerifyULBReportTest@3fa2213]" started-at="2026-05-12T11:48:01 IST" name="setup" finished-at="2026-05-12T11:48:04 IST" duration-ms="3650" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_AllModuleReportPageExists()[pri:0, instance:testCases.TC026_VerifyULBReportTest@3fa2213]" started-at="2026-05-12T11:48:04 IST" name="verify_AllModuleReportPageExists" finished-at="2026-05-12T11:48:14 IST" duration-ms="9904" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_AllModuleReportPageExists -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC026_VerifyULBReportTest@3fa2213]" started-at="2026-05-12T11:48:14 IST" name="tearDown" finished-at="2026-05-12T11:48:15 IST" duration-ms="593" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC026_VerifyULBReportTest -->
+      <class name="testCases.TC014_VerifyUpdatePropertyDetailsTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC014_VerifyUpdatePropertyDetailsTest@3e10dc6]" started-at="2026-05-12T11:44:02 IST" name="setup" finished-at="2026-05-12T11:44:05 IST" duration-ms="3775" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_PropertyListPageExists()[pri:0, instance:testCases.TC014_VerifyUpdatePropertyDetailsTest@3e10dc6]" started-at="2026-05-12T11:44:05 IST" name="verify_PropertyListPageExists" finished-at="2026-05-12T11:44:19 IST" duration-ms="13718" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_PropertyListPageExists -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC014_VerifyUpdatePropertyDetailsTest@3e10dc6]" started-at="2026-05-12T11:44:19 IST" name="tearDown" finished-at="2026-05-12T11:44:19 IST" duration-ms="388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC014_VerifyUpdatePropertyDetailsTest -->
+      <class name="testCases.TC038_VerifyTCVisitReportTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC038_VerifyTCVisitReportTest@665df3c6]" started-at="2026-05-12T11:52:34 IST" name="setup" finished-at="2026-05-12T11:52:37 IST" duration-ms="3490" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_TCVisitReportPageExists()[pri:0, instance:testCases.TC038_VerifyTCVisitReportTest@665df3c6]" started-at="2026-05-12T11:52:37 IST" name="verify_TCVisitReportPageExists" finished-at="2026-05-12T11:52:55 IST" duration-ms="17849" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_TCVisitReportPageExists -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC038_VerifyTCVisitReportTest@665df3c6]" started-at="2026-05-12T11:52:55 IST" name="tearDown" finished-at="2026-05-12T11:52:56 IST" duration-ms="378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC038_VerifyTCVisitReportTest -->
+      <class name="testCases.TC035_VerifyApptiListTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC035_VerifyApptiListTest@2974f221]" started-at="2026-05-12T11:51:22 IST" name="setup" finished-at="2026-05-12T11:51:26 IST" duration-ms="3321" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_ApptiFormListPageExists()[pri:0, instance:testCases.TC035_VerifyApptiListTest@2974f221]" started-at="2026-05-12T11:51:26 IST" name="verify_ApptiFormListPageExists" finished-at="2026-05-12T11:51:41 IST" duration-ms="14815" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_ApptiFormListPageExists -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC035_VerifyApptiListTest@2974f221]" started-at="2026-05-12T11:51:41 IST" name="tearDown" finished-at="2026-05-12T11:51:41 IST" duration-ms="450" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC035_VerifyApptiListTest -->
+      <class name="testCases.TC028_VerifyAllModuleTCSummaryTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC028_VerifyAllModuleTCSummaryTest@6f0b0a5e]" started-at="2026-05-12T11:48:42 IST" name="setup" finished-at="2026-05-12T11:48:48 IST" duration-ms="6682" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_AllModuleOperatorWiseCollectionPageExists()[pri:0, instance:testCases.TC028_VerifyAllModuleTCSummaryTest@6f0b0a5e]" started-at="2026-05-12T11:48:48 IST" name="verify_AllModuleOperatorWiseCollectionPageExists" finished-at="2026-05-12T11:49:12 IST" duration-ms="23922" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_AllModuleOperatorWiseCollectionPageExists -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC028_VerifyAllModuleTCSummaryTest@6f0b0a5e]" started-at="2026-05-12T11:49:12 IST" name="tearDown" finished-at="2026-05-12T11:49:12 IST" duration-ms="379" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC028_VerifyAllModuleTCSummaryTest -->
+      <class name="testCases.TC024_VerifyZoneAndWardWiseCollectionReportTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC024_VerifyZoneAndWardWiseCollectionReportTest@5e81e5ac]" started-at="2026-05-12T11:47:07 IST" name="setup" finished-at="2026-05-12T11:47:12 IST" duration-ms="4371" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_WardWiseCollectionReportPageExists()[pri:0, instance:testCases.TC024_VerifyZoneAndWardWiseCollectionReportTest@5e81e5ac]" started-at="2026-05-12T11:47:12 IST" name="verify_WardWiseCollectionReportPageExists" finished-at="2026-05-12T11:47:34 IST" duration-ms="22083" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_WardWiseCollectionReportPageExists -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC024_VerifyZoneAndWardWiseCollectionReportTest@5e81e5ac]" started-at="2026-05-12T11:47:34 IST" name="tearDown" finished-at="2026-05-12T11:47:34 IST" duration-ms="350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC024_VerifyZoneAndWardWiseCollectionReportTest -->
+      <class name="testCases.TC050_VerifySurveyLevelSummaryReportTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC050_VerifySurveyLevelSummaryReportTest@1cbf6e72]" started-at="2026-05-12T11:57:55 IST" name="setup" finished-at="2026-05-12T11:57:59 IST" duration-ms="3557" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_SurveyLevelSummaryReportPageExists()[pri:0, instance:testCases.TC050_VerifySurveyLevelSummaryReportTest@1cbf6e72]" started-at="2026-05-12T11:57:59 IST" name="verify_SurveyLevelSummaryReportPageExists" finished-at="2026-05-12T11:58:27 IST" duration-ms="28680" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_SurveyLevelSummaryReportPageExists -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC050_VerifySurveyLevelSummaryReportTest@1cbf6e72]" started-at="2026-05-12T11:58:27 IST" name="tearDown" finished-at="2026-05-12T11:58:28 IST" duration-ms="432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC050_VerifySurveyLevelSummaryReportTest -->
+      <class name="testCases.TC018_VerifyAdjustmentTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC018_VerifyAdjustmentTest@6941827a]" started-at="2026-05-12T11:45:11 IST" name="setup" finished-at="2026-05-12T11:45:14 IST" duration-ms="3437" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_PropertyListPageExists()[pri:0, instance:testCases.TC018_VerifyAdjustmentTest@6941827a]" started-at="2026-05-12T11:45:14 IST" name="verify_PropertyListPageExists" finished-at="2026-05-12T11:45:27 IST" duration-ms="13335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_PropertyListPageExists -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC018_VerifyAdjustmentTest@6941827a]" started-at="2026-05-12T11:45:27 IST" name="tearDown" finished-at="2026-05-12T11:45:28 IST" duration-ms="669" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC018_VerifyAdjustmentTest -->
+      <class name="testCases.TC064_VerifyUDTaxMenuTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC064_VerifyUDTaxMenuTest@5dd91bca]" started-at="2026-05-12T12:03:22 IST" name="setup" finished-at="2026-05-12T12:03:25 IST" duration-ms="3477" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_UDTaxMenuExists()[pri:0, instance:testCases.TC064_VerifyUDTaxMenuTest@5dd91bca]" started-at="2026-05-12T12:03:25 IST" name="verify_UDTaxMenuExists" finished-at="2026-05-12T12:03:32 IST" duration-ms="7179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_UDTaxMenuExists -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC064_VerifyUDTaxMenuTest@5dd91bca]" started-at="2026-05-12T12:03:32 IST" name="tearDown" finished-at="2026-05-12T12:03:33 IST" duration-ms="404" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC064_VerifyUDTaxMenuTest -->
+      <class name="testCases.TC010_VerifyLegacyEntryTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC010_VerifyLegacyEntryTest@57459491]" started-at="2026-05-12T11:42:47 IST" name="setup" finished-at="2026-05-12T11:42:51 IST" duration-ms="3871" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_LegacyEntryPageIsExists()[pri:0, instance:testCases.TC010_VerifyLegacyEntryTest@57459491]" started-at="2026-05-12T11:42:51 IST" name="verify_LegacyEntryPageIsExists" finished-at="2026-05-12T11:43:03 IST" duration-ms="11688" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_LegacyEntryPageIsExists -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC010_VerifyLegacyEntryTest@57459491]" started-at="2026-05-12T11:43:03 IST" name="tearDown" finished-at="2026-05-12T11:43:03 IST" duration-ms="385" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC010_VerifyLegacyEntryTest -->
+      <class name="testCases.TC047_VerifySurveyAssessedReportTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC047_VerifySurveyAssessedReportTest@3f792b9b]" started-at="2026-05-12T11:56:28 IST" name="setup" finished-at="2026-05-12T11:56:32 IST" duration-ms="3760" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_SurveyAssessedReportPageExists()[pri:0, instance:testCases.TC047_VerifySurveyAssessedReportTest@3f792b9b]" started-at="2026-05-12T11:56:32 IST" name="verify_SurveyAssessedReportPageExists" finished-at="2026-05-12T11:56:49 IST" duration-ms="16899" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_SurveyAssessedReportPageExists -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC047_VerifySurveyAssessedReportTest@3f792b9b]" started-at="2026-05-12T11:56:49 IST" name="tearDown" finished-at="2026-05-12T11:56:49 IST" duration-ms="393" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC047_VerifySurveyAssessedReportTest -->
+      <class name="testCases.TC052_VerifyUserWiseSurveyEditReportTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC052_VerifyUserWiseSurveyEditReportTest@1af146]" started-at="2026-05-12T11:59:00 IST" name="setup" finished-at="2026-05-12T11:59:03 IST" duration-ms="3421" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_UserWiseSurveyEditReportPageExists()[pri:0, instance:testCases.TC052_VerifyUserWiseSurveyEditReportTest@1af146]" started-at="2026-05-12T11:59:03 IST" name="verify_UserWiseSurveyEditReportPageExists" finished-at="2026-05-12T11:59:32 IST" duration-ms="28087" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_UserWiseSurveyEditReportPageExists -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC052_VerifyUserWiseSurveyEditReportTest@1af146]" started-at="2026-05-12T11:59:32 IST" name="tearDown" finished-at="2026-05-12T11:59:32 IST" duration-ms="371" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC052_VerifyUserWiseSurveyEditReportTest -->
+      <class name="testCases.TC042_VerifyAllUpdationReportTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC042_VerifyAllUpdationReportTest@36f48b4]" started-at="2026-05-12T11:54:09 IST" name="setup" finished-at="2026-05-12T11:54:13 IST" duration-ms="4247" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_AllUpdationReportPageExists()[pri:0, instance:testCases.TC042_VerifyAllUpdationReportTest@36f48b4]" started-at="2026-05-12T11:54:13 IST" name="verify_AllUpdationReportPageExists" finished-at="2026-05-12T11:54:41 IST" duration-ms="27963" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_AllUpdationReportPageExists -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC042_VerifyAllUpdationReportTest@36f48b4]" started-at="2026-05-12T11:54:41 IST" name="tearDown" finished-at="2026-05-12T11:54:42 IST" duration-ms="354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC042_VerifyAllUpdationReportTest -->
+      <class name="testCases.TC032_VerifyReassessmentDiffTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC032_VerifyReassessmentDiffTest@abf688e]" started-at="2026-05-12T11:50:19 IST" name="setup" finished-at="2026-05-12T11:50:23 IST" duration-ms="3597" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_ReassessmentDiffReportPageExists()[pri:0, instance:testCases.TC032_VerifyReassessmentDiffTest@abf688e]" started-at="2026-05-12T11:50:23 IST" name="verify_ReassessmentDiffReportPageExists" finished-at="2026-05-12T11:50:41 IST" duration-ms="18014" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_ReassessmentDiffReportPageExists -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC032_VerifyReassessmentDiffTest@abf688e]" started-at="2026-05-12T11:50:41 IST" name="tearDown" finished-at="2026-05-12T11:50:41 IST" duration-ms="406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC032_VerifyReassessmentDiffTest -->
+      <class name="testCases.TC068_VerifyAccountsMenuTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC068_VerifyAccountsMenuTest@75f65e45]" started-at="2026-05-12T12:04:05 IST" name="setup" finished-at="2026-05-12T12:04:09 IST" duration-ms="3510" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_AccountsMenuExists()[pri:0, instance:testCases.TC068_VerifyAccountsMenuTest@75f65e45]" started-at="2026-05-12T12:04:09 IST" name="verify_AccountsMenuExists" finished-at="2026-05-12T12:04:16 IST" duration-ms="7101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_AccountsMenuExists -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC068_VerifyAccountsMenuTest@75f65e45]" started-at="2026-05-12T12:04:16 IST" name="tearDown" finished-at="2026-05-12T12:04:16 IST" duration-ms="407" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC068_VerifyAccountsMenuTest -->
+      <class name="testCases.TC012_VerifySearchPropertyTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC012_VerifySearchPropertyTest@77a98a6a]" started-at="2026-05-12T11:43:27 IST" name="setup" finished-at="2026-05-12T11:43:30 IST" duration-ms="3412" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_PropertyListPageExists()[pri:0, instance:testCases.TC012_VerifySearchPropertyTest@77a98a6a]" started-at="2026-05-12T11:43:30 IST" name="verify_PropertyListPageExists" finished-at="2026-05-12T11:43:44 IST" duration-ms="13843" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_PropertyListPageExists -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC012_VerifySearchPropertyTest@77a98a6a]" started-at="2026-05-12T11:43:44 IST" name="tearDown" finished-at="2026-05-12T11:43:45 IST" duration-ms="402" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC012_VerifySearchPropertyTest -->
+      <class name="testCases.TC039_VerifyTCVisitSummaryTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC039_VerifyTCVisitSummaryTest@68b6f0d6]" started-at="2026-05-12T11:52:56 IST" name="setup" finished-at="2026-05-12T11:52:59 IST" duration-ms="3466" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_TCVisitSummaryPageExists()[pri:0, instance:testCases.TC039_VerifyTCVisitSummaryTest@68b6f0d6]" started-at="2026-05-12T11:52:59 IST" name="verify_TCVisitSummaryPageExists" finished-at="2026-05-12T11:53:16 IST" duration-ms="16785" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_TCVisitSummaryPageExists -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC039_VerifyTCVisitSummaryTest@68b6f0d6]" started-at="2026-05-12T11:53:16 IST" name="tearDown" finished-at="2026-05-12T11:53:16 IST" duration-ms="362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC039_VerifyTCVisitSummaryTest -->
+      <class name="testCases.TC040_VerifyPropertyWiseTCVisitTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC040_VerifyPropertyWiseTCVisitTest@4044fb95]" started-at="2026-05-12T11:53:16 IST" name="setup" finished-at="2026-05-12T11:53:19 IST" duration-ms="3351" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_PropertyWiseTCVisitPageExists()[pri:0, instance:testCases.TC040_VerifyPropertyWiseTCVisitTest@4044fb95]" started-at="2026-05-12T11:53:19 IST" name="verify_PropertyWiseTCVisitPageExists" finished-at="2026-05-12T11:53:48 IST" duration-ms="28326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_PropertyWiseTCVisitPageExists -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC040_VerifyPropertyWiseTCVisitTest@4044fb95]" started-at="2026-05-12T11:53:48 IST" name="tearDown" finished-at="2026-05-12T11:53:48 IST" duration-ms="388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC040_VerifyPropertyWiseTCVisitTest -->
+      <class name="testCases.TC007_VerifyFeedbackTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC007_VerifyFeedbackTest@13cf7d52]" started-at="2026-05-12T11:41:49 IST" name="setup" finished-at="2026-05-12T11:41:52 IST" duration-ms="3607" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_FeedbackPageIsExists()[pri:0, instance:testCases.TC007_VerifyFeedbackTest@13cf7d52]" started-at="2026-05-12T11:41:52 IST" name="verify_FeedbackPageIsExists" finished-at="2026-05-12T11:41:56 IST" duration-ms="4080" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_FeedbackPageIsExists -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC007_VerifyFeedbackTest@13cf7d52]" started-at="2026-05-12T11:41:56 IST" name="tearDown" finished-at="2026-05-12T11:41:57 IST" duration-ms="306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC007_VerifyFeedbackTest -->
+      <class name="testCases.TC003_ApplySelfAssessmentTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_ApplySelfAssessmentTest@a202ccb]" started-at="2026-05-12T11:35:12 IST" name="setup" finished-at="2026-05-12T11:35:26 IST" duration-ms="13768" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_applySelfAssessmentPage()[pri:0, instance:testCases.TC003_ApplySelfAssessmentTest@a202ccb]" started-at="2026-05-12T11:35:26 IST" name="verify_applySelfAssessmentPage" finished-at="2026-05-12T11:38:43 IST" duration-ms="196907" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_applySelfAssessmentPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC003_ApplySelfAssessmentTest@a202ccb]" started-at="2026-05-12T11:38:43 IST" name="tearDown" finished-at="2026-05-12T11:38:44 IST" duration-ms="519" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC003_ApplySelfAssessmentTest -->
+      <class name="testCases.TC015_VerifyLastPaymentUpdateTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC015_VerifyLastPaymentUpdateTest@7e22550a]" started-at="2026-05-12T11:44:19 IST" name="setup" finished-at="2026-05-12T11:44:23 IST" duration-ms="3247" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_PropertyListPageExists()[pri:0, instance:testCases.TC015_VerifyLastPaymentUpdateTest@7e22550a]" started-at="2026-05-12T11:44:23 IST" name="verify_PropertyListPageExists" finished-at="2026-05-12T11:44:36 IST" duration-ms="13544" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_PropertyListPageExists -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC015_VerifyLastPaymentUpdateTest@7e22550a]" started-at="2026-05-12T11:44:36 IST" name="tearDown" finished-at="2026-05-12T11:44:37 IST" duration-ms="450" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC015_VerifyLastPaymentUpdateTest -->
+      <class name="testCases.TC025_VerifyPaymentModeWiseCollectionTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC025_VerifyPaymentModeWiseCollectionTest@4189d70b]" started-at="2026-05-12T11:47:34 IST" name="setup" finished-at="2026-05-12T11:47:38 IST" duration-ms="3685" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_PaymentModeWiseCollectionPageExists()[pri:0, instance:testCases.TC025_VerifyPaymentModeWiseCollectionTest@4189d70b]" started-at="2026-05-12T11:47:38 IST" name="verify_PaymentModeWiseCollectionPageExists" finished-at="2026-05-12T11:48:00 IST" duration-ms="22339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_PaymentModeWiseCollectionPageExists -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC025_VerifyPaymentModeWiseCollectionTest@4189d70b]" started-at="2026-05-12T11:48:00 IST" name="tearDown" finished-at="2026-05-12T11:48:01 IST" duration-ms="373" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC025_VerifyPaymentModeWiseCollectionTest -->
+      <class name="testCases.TC044_VerifySurveySummaryReportTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC044_VerifySurveySummaryReportTest@3b7ff809]" started-at="2026-05-12T11:55:04 IST" name="setup" finished-at="2026-05-12T11:55:07 IST" duration-ms="3474" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_SurveySummaryReportPageExists()[pri:0, instance:testCases.TC044_VerifySurveySummaryReportTest@3b7ff809]" started-at="2026-05-12T11:55:07 IST" name="verify_SurveySummaryReportPageExists" finished-at="2026-05-12T11:55:34 IST" duration-ms="27274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_SurveySummaryReportPageExists -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC044_VerifySurveySummaryReportTest@3b7ff809]" started-at="2026-05-12T11:55:34 IST" name="tearDown" finished-at="2026-05-12T11:55:35 IST" duration-ms="598" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC044_VerifySurveySummaryReportTest -->
+      <class name="testCases.TC069_VerifySurveyMailMenuTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC069_VerifySurveyMailMenuTest@6eeade6c]" started-at="2026-05-12T12:04:16 IST" name="setup" finished-at="2026-05-12T12:04:20 IST" duration-ms="3520" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_SurveyMailMenuExists()[pri:0, instance:testCases.TC069_VerifySurveyMailMenuTest@6eeade6c]" started-at="2026-05-12T12:04:20 IST" name="verify_SurveyMailMenuExists" finished-at="2026-05-12T12:04:27 IST" duration-ms="6819" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_SurveyMailMenuExists -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC069_VerifySurveyMailMenuTest@6eeade6c]" started-at="2026-05-12T12:04:27 IST" name="tearDown" finished-at="2026-05-12T12:04:27 IST" duration-ms="379" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC069_VerifySurveyMailMenuTest -->
+      <class name="testCases.TC022_VerifyDCBReportTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC022_VerifyDCBReportTest@7516e4e5]" started-at="2026-05-12T11:46:41 IST" name="setup" finished-at="2026-05-12T11:46:44 IST" duration-ms="3562" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_DCBULBWisePageExists()[pri:0, instance:testCases.TC022_VerifyDCBReportTest@7516e4e5]" started-at="2026-05-12T11:46:44 IST" name="verify_DCBULBWisePageExists" finished-at="2026-05-12T11:46:54 IST" duration-ms="9563" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_DCBULBWisePageExists -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC022_VerifyDCBReportTest@7516e4e5]" started-at="2026-05-12T11:46:54 IST" name="tearDown" finished-at="2026-05-12T11:46:54 IST" duration-ms="350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC022_VerifyDCBReportTest -->
+      <class name="testCases.TC056_VerifySurveyNoticeListTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC056_VerifySurveyNoticeListTest@72758afa]" started-at="2026-05-12T12:00:47 IST" name="setup" finished-at="2026-05-12T12:00:51 IST" duration-ms="3430" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_SurveyNoticeListPageExists()[pri:0, instance:testCases.TC056_VerifySurveyNoticeListTest@72758afa]" started-at="2026-05-12T12:00:51 IST" name="verify_SurveyNoticeListPageExists" finished-at="2026-05-12T12:01:08 IST" duration-ms="17460" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_SurveyNoticeListPageExists -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC056_VerifySurveyNoticeListTest@72758afa]" started-at="2026-05-12T12:01:08 IST" name="tearDown" finished-at="2026-05-12T12:01:08 IST" duration-ms="376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC056_VerifySurveyNoticeListTest -->
+      <class name="testCases.TC063_VerifyAssessmentMenuTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC063_VerifyAssessmentMenuTest@29df4d43]" started-at="2026-05-12T12:03:11 IST" name="setup" finished-at="2026-05-12T12:03:14 IST" duration-ms="3453" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_AssessmentMenuExists()[pri:0, instance:testCases.TC063_VerifyAssessmentMenuTest@29df4d43]" started-at="2026-05-12T12:03:14 IST" name="verify_AssessmentMenuExists" finished-at="2026-05-12T12:03:21 IST" duration-ms="7164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_AssessmentMenuExists -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC063_VerifyAssessmentMenuTest@29df4d43]" started-at="2026-05-12T12:03:21 IST" name="tearDown" finished-at="2026-05-12T12:03:22 IST" duration-ms="408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC063_VerifyAssessmentMenuTest -->
+      <class name="testCases.TC036_VerifyAppttiPendingReportTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC036_VerifyAppttiPendingReportTest@58fe0499]" started-at="2026-05-12T11:51:41 IST" name="setup" finished-at="2026-05-12T11:51:45 IST" duration-ms="3871" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_AppttiPendingReportPageExists()[pri:0, instance:testCases.TC036_VerifyAppttiPendingReportTest@58fe0499]" started-at="2026-05-12T11:51:45 IST" name="verify_AppttiPendingReportPageExists" finished-at="2026-05-12T11:52:12 IST" duration-ms="27420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_AppttiPendingReportPageExists -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC036_VerifyAppttiPendingReportTest@58fe0499]" started-at="2026-05-12T11:52:12 IST" name="tearDown" finished-at="2026-05-12T11:52:13 IST" duration-ms="369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC036_VerifyAppttiPendingReportTest -->
+      <class name="testCases.TC041_VerifyTLVisitReportTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC041_VerifyTLVisitReportTest@aa549e5]" started-at="2026-05-12T11:53:48 IST" name="setup" finished-at="2026-05-12T11:53:52 IST" duration-ms="3595" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_TLVisitReportPageExists()[pri:0, instance:testCases.TC041_VerifyTLVisitReportTest@aa549e5]" started-at="2026-05-12T11:53:52 IST" name="verify_TLVisitReportPageExists" finished-at="2026-05-12T11:54:09 IST" duration-ms="16935" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_TLVisitReportPageExists -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC041_VerifyTLVisitReportTest@aa549e5]" started-at="2026-05-12T11:54:09 IST" name="tearDown" finished-at="2026-05-12T11:54:09 IST" duration-ms="441" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC041_VerifyTLVisitReportTest -->
+      <class name="testCases.TC060_VerifySurveyNoticeDistributedReportTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC060_VerifySurveyNoticeDistributedReportTest@21baa903]" started-at="2026-05-12T12:02:15 IST" name="setup" finished-at="2026-05-12T12:02:19 IST" duration-ms="3715" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_SurveyNoticeDistributedReportPageExists()[pri:0, instance:testCases.TC060_VerifySurveyNoticeDistributedReportTest@21baa903]" started-at="2026-05-12T12:02:19 IST" name="verify_SurveyNoticeDistributedReportPageExists" finished-at="2026-05-12T12:02:37 IST" duration-ms="17986" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_SurveyNoticeDistributedReportPageExists -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC060_VerifySurveyNoticeDistributedReportTest@21baa903]" started-at="2026-05-12T12:02:37 IST" name="tearDown" finished-at="2026-05-12T12:02:37 IST" duration-ms="391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC060_VerifySurveyNoticeDistributedReportTest -->
+      <class name="testCases.TC031_VerifyPrintAllDemandReceiptTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC031_VerifyPrintAllDemandReceiptTest@3dd1dc90]" started-at="2026-05-12T11:49:55 IST" name="setup" finished-at="2026-05-12T11:49:58 IST" duration-ms="3504" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_PrintAllDemandReceiptPageExists()[pri:0, instance:testCases.TC031_VerifyPrintAllDemandReceiptTest@3dd1dc90]" started-at="2026-05-12T11:49:59 IST" name="verify_PrintAllDemandReceiptPageExists" finished-at="2026-05-12T11:50:19 IST" duration-ms="20474" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_PrintAllDemandReceiptPageExists -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC031_VerifyPrintAllDemandReceiptTest@3dd1dc90]" started-at="2026-05-12T11:50:19 IST" name="tearDown" finished-at="2026-05-12T11:50:19 IST" duration-ms="379" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC031_VerifyPrintAllDemandReceiptTest -->
+      <class name="testCases.TC055_VerifyExPartySurveyNoticeTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC055_VerifyExPartySurveyNoticeTest@25b2cfcb]" started-at="2026-05-12T12:00:25 IST" name="setup" finished-at="2026-05-12T12:00:29 IST" duration-ms="3412" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_ExPartySurveyNoticePageExists()[pri:0, instance:testCases.TC055_VerifyExPartySurveyNoticeTest@25b2cfcb]" started-at="2026-05-12T12:00:29 IST" name="verify_ExPartySurveyNoticePageExists" finished-at="2026-05-12T12:00:47 IST" duration-ms="18080" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_ExPartySurveyNoticePageExists -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC055_VerifyExPartySurveyNoticeTest@25b2cfcb]" started-at="2026-05-12T12:00:47 IST" name="tearDown" finished-at="2026-05-12T12:00:47 IST" duration-ms="354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC055_VerifyExPartySurveyNoticeTest -->
+      <class name="testCases.TC021_VerifyTCCollectionSummaryTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC021_VerifyTCCollectionSummaryTest@1021f6c9]" started-at="2026-05-12T11:46:14 IST" name="setup" finished-at="2026-05-12T11:46:17 IST" duration-ms="3361" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_TCCollectionSummaryPageExists()[pri:0, instance:testCases.TC021_VerifyTCCollectionSummaryTest@1021f6c9]" started-at="2026-05-12T11:46:17 IST" name="verify_TCCollectionSummaryPageExists" finished-at="2026-05-12T11:46:40 IST" duration-ms="23018" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_TCCollectionSummaryPageExists -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC021_VerifyTCCollectionSummaryTest@1021f6c9]" started-at="2026-05-12T11:46:40 IST" name="tearDown" finished-at="2026-05-12T11:46:41 IST" duration-ms="378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC021_VerifyTCCollectionSummaryTest -->
+      <class name="testCases.TC017_VerifyWardUpdateTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC017_VerifyWardUpdateTest@62452cc9]" started-at="2026-05-12T11:44:54 IST" name="setup" finished-at="2026-05-12T11:44:57 IST" duration-ms="3470" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_PropertyListPageExists()[pri:0, instance:testCases.TC017_VerifyWardUpdateTest@62452cc9]" started-at="2026-05-12T11:44:57 IST" name="verify_PropertyListPageExists" finished-at="2026-05-12T11:45:10 IST" duration-ms="12875" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_PropertyListPageExists -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC017_VerifyWardUpdateTest@62452cc9]" started-at="2026-05-12T11:45:10 IST" name="tearDown" finished-at="2026-05-12T11:45:11 IST" duration-ms="370" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC017_VerifyWardUpdateTest -->
+      <class name="testCases.TC034_VerifyTaxCollectionReportTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC034_VerifyTaxCollectionReportTest@1a7288a3]" started-at="2026-05-12T11:51:04 IST" name="setup" finished-at="2026-05-12T11:51:07 IST" duration-ms="3426" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_TaxCollectionReportPageExists()[pri:0, instance:testCases.TC034_VerifyTaxCollectionReportTest@1a7288a3]" started-at="2026-05-12T11:51:07 IST" name="verify_TaxCollectionReportPageExists" finished-at="2026-05-12T11:51:22 IST" duration-ms="15061" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_TaxCollectionReportPageExists -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC034_VerifyTaxCollectionReportTest@1a7288a3]" started-at="2026-05-12T11:51:22 IST" name="tearDown" finished-at="2026-05-12T11:51:22 IST" duration-ms="357" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC034_VerifyTaxCollectionReportTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Master Suite -->
+</testng-results>

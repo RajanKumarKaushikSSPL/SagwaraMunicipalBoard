@@ -1,0 +1,112 @@
+Creation of Framework Step by step for SagwaraMunicipalBoard website
+-------------------------------------------------------------------------------
+12) Run Tests using Maven pom.xml, command prompt & run.bat file. 
+13) Push the Code to Git & GitHub Repository
+
+pom.xml
+-------
+
+dependencies -- download required dependency jars for project
+plugins ---> to compile and run the project
+
+1) maven compiler plugin
+2) maven surefire plugin
+
+Install maven OS Level
+----------------------
+https://maven.apache.org/download.cgi
+
+C:\Program Files\apache-maven-3.9.12\bin
+** configure the maven path in enviornment variable.
+
+open command prompt --> mvn -version
+
+Project location:
+-----------------
+D:\SeleniumWebDriver Workspace\SagwaraMunicipalBoard
+
+cd D:\SeleniumWebDriver Workspace\SagwaraMunicipalBoard
+mvn test or mvn clean test
+
+Pre-requisities
+--------------
+1) Git installation
+2) create an account with GitHub & create remote repository then capture url
+Account creation: https://github.com/signup?source=login
+Repository url: https://github.com/RajanKumarKaushikSSPL/FatehpurMunicipalCouncil.git
+
+
+
+Git & GitHub workflow
+---------------------
+
+Round1
+------
+1) create a new local repository (one time)
+git init
+
+2) provided user info to git repo. (one time)
+
+          git config --global user.name "your name"
+          git config --global user.email "your email"
+
+3) Adding files/folders to staging/indexing
+   git add -A      -->add all the files and folders to staging
+   git add filename
+   git add *.java
+   git add foldername
+
+4) Commit the code into Local(git) repository
+        git commit -m "commit message"
+
+https://github.com/RajanKumarKaushikSSPL/FatehpurMunicipalCouncil.git
+
+5) connect local repository with remote repository (One time)
+         git remote add origin "https://github.com/RajanKumarKaushikSSPL/FatehpurMunicipalCouncil.git"
+
+6) push the code into remote repository
+        git push origin master
+
+
+
+Round2
+------
+1) git add -A
+2) git commit -m "commit message"
+3) git push origin master
+
+
+Pull the files from remote repository
+-------------------------------------
+git pull "https://github.com/RajanKumarKaushikSSPL/FatehpurMunicipalCouncil.git"(remote repository URL)
+
+
+clone new repository to local system
+------------------------------------
+git clone "https://github.com/RajanKumarKaushikSSPL/FatehpurMunicipalCouncil.git"
+
+Jenkins
+-------
+To run test cases from jenkins:-
+------------------------------
+1.go to the location of jenkins.war file
+D:\Selenium Training\Automation Files
+2.open cmd propmpt,then fire command
+java -jar jenkins.war
+3.open URL http://localhost:8080/
+login,go to project specific dashboard,click on build now section
+
+Jenkins Password: 20aecbdf980c4846bfd9d3292dddc595
+Jenkins URL: http://localhost:8080/
+
+Jenkins Credential
+------------------
+Username - admin
+Password - admin
+Full name - Admin
+E-mail address - rajankaushik68@gmail.com
+
+Creation of Framework Step by step for SagwaraMunicipalBoard website
+-------------------------------------------------------------------------------
+
+14) Run Tests using Jenkins.
