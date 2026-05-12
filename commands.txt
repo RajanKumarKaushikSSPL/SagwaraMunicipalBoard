@@ -33,7 +33,7 @@ Pre-requisities
 1) Git installation
 2) create an account with GitHub & create remote repository then capture url
 Account creation: https://github.com/signup?source=login
-Repository url: https://github.com/RajanKumarKaushikSSPL/FatehpurMunicipalCouncil.git
+Repository url: https://github.com/RajanKumarKaushikSSPL/SagwaraMunicipalBoard.git
 
 
 
@@ -59,10 +59,10 @@ git init
 4) Commit the code into Local(git) repository
         git commit -m "commit message"
 
-https://github.com/RajanKumarKaushikSSPL/FatehpurMunicipalCouncil.git
+https://github.com/RajanKumarKaushikSSPL/SagwaraMunicipalBoard.git
 
 5) connect local repository with remote repository (One time)
-         git remote add origin "https://github.com/RajanKumarKaushikSSPL/FatehpurMunicipalCouncil.git"
+         git remote add origin "https://github.com/RajanKumarKaushikSSPL/SagwaraMunicipalBoard.git"
 
 6) push the code into remote repository
         git push origin master
@@ -78,12 +78,12 @@ Round2
 
 Pull the files from remote repository
 -------------------------------------
-git pull "https://github.com/RajanKumarKaushikSSPL/FatehpurMunicipalCouncil.git"(remote repository URL)
+git pull "https://github.com/RajanKumarKaushikSSPL/SagwaraMunicipalBoard.git"(remote repository URL)
 
 
 clone new repository to local system
 ------------------------------------
-git clone "https://github.com/RajanKumarKaushikSSPL/FatehpurMunicipalCouncil.git"
+git clone "https://github.com/RajanKumarKaushikSSPL/SagwaraMunicipalBoard.git"
 
 Jenkins
 -------
